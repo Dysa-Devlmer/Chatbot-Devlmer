@@ -1,0 +1,6 @@
+node_modules
+.next
+logs
+.git
+.claude
+.vercel

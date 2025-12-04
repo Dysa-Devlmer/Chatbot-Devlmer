@@ -1,0 +1,206 @@
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║       📋 CHECKLIST: INSTALACIÓN PITHY EN LOCAL            ║
+║          (Imprime esto y úsalo en cada local)             ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+
+
+📅 FECHA: _______________   🏪 LOCAL: _____________________
+
+
+═══════════════════════════════════════════════════════════
+  PASO 1: SOFTWARE BASE (Solo primera vez en esta PC)
+═══════════════════════════════════════════════════════════
+
+☐ 1.1 - Instalar Node.js
+      URL: https://nodejs.org/
+      Versión: LTS (20.x o superior)
+      Tiempo: ~10 minutos
+
+      Verificar:
+      ☐ Abrir PowerShell
+      ☐ Ejecutar: node --version
+      ☐ Debe mostrar: v20.x.x
+      ☐ Ejecutar: npm --version
+      ☐ Debe mostrar: 10.x.x
+
+☐ 1.2 - Instalar Ollama
+      URL: https://ollama.com/download
+      Tiempo: ~5 minutos
+
+      Verificar:
+      ☐ Ejecutar: ollama --version
+      ☐ Debe mostrar versión
+
+☐ 1.3 - Descargar modelo de IA
+      Comando: ollama pull qwen2.5:3b
+      Tiempo: ~10 minutos (descarga 2GB)
+
+      Verificar:
+      ☐ Ejecutar: ollama list
+      ☐ Debe mostrar: qwen2.5:3b
+
+☐ 1.4 - Reiniciar la PC
+      IMPORTANTE: Reinicia para que todo funcione
+
+
+═══════════════════════════════════════════════════════════
+  PASO 2: INSTALAR PITHY
+═══════════════════════════════════════════════════════════
+
+☐ 2.1 - Copiar archivos
+      ☐ Conectar USB / Descomprimir ZIP
+      ☐ Copiar carpeta completa al local
+      ☐ Ubicación del USB/ZIP: _________________
+
+☐ 2.2 - Ejecutar instalador
+      ☐ Buscar: INSTALADOR-PORTABLE.ps1
+      ☐ Clic derecho > "Ejecutar con PowerShell"
+      ☐ Elegir opción: 1 (C:\PITHY)
+      ☐ Confirmar: S
+      ☐ Esperar que termine (2-5 min)
+
+☐ 2.3 - Instalar dependencias
+      ☐ Abrir PowerShell
+      ☐ Ejecutar: cd C:\PITHY
+      ☐ Ejecutar: npm install
+      ☐ Esperar 10-15 minutos
+      ☐ NO cerrar mientras instala
+
+
+═══════════════════════════════════════════════════════════
+  PASO 3: CONFIGURAR
+═══════════════════════════════════════════════════════════
+
+☐ 3.1 - Verificar iconos en escritorio
+      ☐ INICIAR PITHY
+      ☐ DETENER PITHY
+      ☐ PANEL ADMIN PITHY
+      ☐ CARPETA PITHY
+
+      Si no están:
+      ☐ Ejecutar: C:\PITHY\crear-atajos-escritorio.ps1
+
+☐ 3.2 - Configurar credenciales
+      ☐ Abrir: C:\PITHY\.env.local
+      ☐ Verificar WHATSAPP_TOKEN
+      ☐ Verificar WHATSAPP_PHONE_NUMBER_ID
+      ☐ Verificar WHATSAPP_WEBHOOK_TOKEN
+
+      Credenciales copiadas de: __________________
+
+
+═══════════════════════════════════════════════════════════
+  PASO 4: PROBAR
+═══════════════════════════════════════════════════════════
+
+☐ 4.1 - Primera prueba de inicio
+      ☐ Doble click: INICIAR PITHY
+      ☐ Esperar 30-40 segundos
+      ☐ Ver 3 ventanas minimizadas
+      ☐ Doble click: PANEL ADMIN PITHY
+      ☐ Panel abre en navegador
+
+☐ 4.2 - Prueba de mensajes
+      ☐ Enviar mensaje WhatsApp al bot
+      ☐ Número del bot: _____________________
+      ☐ Mensaje aparece en el panel
+      ☐ Bot responde automáticamente
+
+☐ 4.3 - Prueba de modo manual
+      ☐ Abrir conversación en el panel
+      ☐ Cambiar a modo manual (click botón)
+      ☐ Escribir respuesta manual
+      ☐ Enviar desde el panel
+      ☐ Cliente recibe mensaje
+
+☐ 4.4 - Prueba de detener
+      ☐ Doble click: DETENER PITHY
+      ☐ Ventanas se cierran
+      ☐ Todo detiene correctamente
+
+
+═══════════════════════════════════════════════════════════
+  CAPACITACIÓN AL PERSONAL
+═══════════════════════════════════════════════════════════
+
+☐ Enseñar cómo iniciar:
+   "Doble click en INICIAR PITHY"
+
+☐ Enseñar cómo abrir panel:
+   "Doble click en PANEL ADMIN PITHY"
+
+☐ Enseñar cómo responder manualmente:
+   "Click en conversación > escribir > enviar"
+
+☐ Enseñar cómo cambiar modo:
+   "Click en botón de modo (🤖 o 👤)"
+
+☐ Enseñar cómo cerrar:
+   "Doble click en DETENER PITHY"
+
+
+═══════════════════════════════════════════════════════════
+  DATOS DEL LOCAL
+═══════════════════════════════════════════════════════════
+
+PC del local:
+  Marca/Modelo: _______________________________________
+  RAM: _______________
+  Windows: ____________
+
+Instalado por: _________________________________________
+Fecha instalación: _____________________________________
+Hora inicio: ___________________________________________
+Hora fin: ______________________________________________
+
+Problemas encontrados:
+_________________________________________________________
+_________________________________________________________
+_________________________________________________________
+
+Soluciones aplicadas:
+_________________________________________________________
+_________________________________________________________
+_________________________________________________________
+
+
+═══════════════════════════════════════════════════════════
+  INFORMACIÓN DE SOPORTE
+═══════════════════════════════════════════════════════════
+
+Ubicación PITHY: C:\PITHY
+
+Logs: C:\PITHY\logs\
+
+Credenciales: C:\PITHY\.env.local
+
+Base de datos: C:\PITHY\dev.db
+
+Documentación:
+  - INSTALACION-COMPLETA-LOCAL.md
+  - GUIA-PANEL-ADMIN.md
+  - LEEME-SIMPLE.txt
+
+
+═══════════════════════════════════════════════════════════
+  FIRMA
+═══════════════════════════════════════════════════════════
+
+☐ Instalación completada exitosamente
+
+Técnico: _______________________________________________
+
+Firma: _________________________________________________
+
+Fecha: _________________________________________________
+
+
+═══════════════════════════════════════════════════════════
+
+Chatbot PITHY - Devlmer Project CL
+Creado por: Ulmer Solier
+Versión: 1.0 Portable
+
+═══════════════════════════════════════════════════════════

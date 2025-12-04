@@ -1,0 +1,578 @@
+t=2025-11-26T04:23:37-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-11-26T04:23:37-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-11-26T04:23:38-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-26T04:23:38-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-26T04:23:38-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-26T04:23:38-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-11-26T04:23:38-0300 lvl=info msg="update available" obj=updater
+t=2025-11-26T04:24:39-0300 lvl=info msg="join connections" obj=join id=821fcf5833e7 l=[::1]:3000 r=[2a03:2880:10ff:5b::]:55254
+t=2025-11-26T04:24:44-0300 lvl=info msg=start pg=/api/tunnels id=7ad8c8060d198da3
+t=2025-11-26T04:24:44-0300 lvl=info msg=end pg=/api/tunnels id=7ad8c8060d198da3 status=200 dur=1.5596ms
+t=2025-11-26T04:26:31-0300 lvl=info msg=start pg=/api/tunnels id=6d6802b11330ade9
+t=2025-11-26T04:26:31-0300 lvl=info msg=end pg=/api/tunnels id=6d6802b11330ade9 status=200 dur=0s
+t=2025-11-26T04:28:17-0300 lvl=info msg=start pg=/api/tunnels id=933420d844e264a0
+t=2025-11-26T04:28:17-0300 lvl=info msg=end pg=/api/tunnels id=933420d844e264a0 status=200 dur=0s
+t=2025-11-26T04:28:17-0300 lvl=info msg=start pg=/favicon.ico id=6f668a6a05568bba
+t=2025-11-26T04:28:17-0300 lvl=warn msg="Not Found" pg=/favicon.ico id=6f668a6a05568bba path=/favicon.ico
+t=2025-11-26T04:28:17-0300 lvl=info msg=end pg=/favicon.ico id=6f668a6a05568bba status=404 dur=0s
+t=2025-11-26T04:28:34-0300 lvl=info msg="join connections" obj=join id=f2d6135d6b7e l=[::1]:3000 r=[2a03:2880:22ff:7::]:33192
+t=2025-11-26T04:28:36-0300 lvl=info msg="join connections" obj=join id=52f70d3c9cbd l=[::1]:3000 r=[2a03:2880:10ff:6::]:37682
+t=2025-11-26T04:28:37-0300 lvl=info msg="join connections" obj=join id=0a6c3309300e l=[::1]:3000 r=[2a03:2880:22ff:7e::]:33800
+t=2025-11-26T04:29:02-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-11-26T04:29:02-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-11-26T04:29:02-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=918db66fef53 err="reconnecting session closed"
+t=2025-11-26T04:29:02-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-11-26T04:29:02-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=3f412db7b3c56f94e069af2275da6626
+t=2025-11-26T04:29:02-0300 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2025-11-26T04:29:02-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-11-26T04:29:02-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-11-26T04:29:02-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-26T04:29:02-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-26T04:29:02-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-26T04:29:03-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-11-26T04:29:03-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-11-26T04:29:03-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-11-26T04:29:03-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=088e51b0fa08 err="reconnecting session closed"
+t=2025-11-26T04:29:03-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-11-26T21:50:34-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-11-26T21:50:34-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-11-26T21:50:34-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-26T21:50:34-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-26T21:50:34-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-26T21:50:35-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-11-26T21:50:35-0300 lvl=info msg="update available" obj=updater
+t=2025-11-26T21:56:06-0300 lvl=info msg="join connections" obj=join id=af044d585d6a l=[::1]:3000 r=[2a03:2880:10ff:49::]:53352
+t=2025-11-26T22:15:09-0300 lvl=info msg="join connections" obj=join id=c02bde4cc495 l=[::1]:3000 r=[2a03:2880:22ff:8::]:61138
+t=2025-11-26T22:37:37-0300 lvl=info msg=start pg=/api/tunnels id=cde5c10e01a30d2f
+t=2025-11-26T22:37:37-0300 lvl=info msg=end pg=/api/tunnels id=cde5c10e01a30d2f status=200 dur=504.9µs
+t=2025-11-26T22:38:43-0300 lvl=info msg=start pg=/api/tunnels id=5921e0a8e90daf83
+t=2025-11-26T22:38:43-0300 lvl=info msg=end pg=/api/tunnels id=5921e0a8e90daf83 status=200 dur=506.1µs
+t=2025-11-26T22:38:45-0300 lvl=info msg=start pg=/api/tunnels id=c8e0b6f8ba38fffe
+t=2025-11-26T22:38:45-0300 lvl=info msg=end pg=/api/tunnels id=c8e0b6f8ba38fffe status=200 dur=0s
+t=2025-11-26T22:45:47-0300 lvl=info msg="join connections" obj=join id=081a90bcc39b l=[::1]:3000 r=[2a03:2880:12ff:72::]:58960
+t=2025-11-26T22:45:50-0300 lvl=info msg="join connections" obj=join id=68786cbddd8b l=[::1]:3000 r=[2a03:2880:22ff:2::]:37104
+t=2025-11-26T22:45:51-0300 lvl=info msg="join connections" obj=join id=f7cdca60f493 l=[::1]:3000 r=[2a03:2880:10ff:2::]:60470
+t=2025-11-26T22:45:51-0300 lvl=info msg="join connections" obj=join id=555e5c972a6a l=[::1]:3000 r=[2a03:2880:12ff:6::]:49492
+t=2025-11-26T22:49:51-0300 lvl=info msg="join connections" obj=join id=c58156f84167 l=[::1]:3000 r=[2a03:2880:10ff:4::]:56564
+t=2025-11-26T22:49:53-0300 lvl=info msg="join connections" obj=join id=99b6122a0b4b l=[::1]:3000 r=[2a03:2880:12ff:3::]:36698
+t=2025-11-26T22:49:54-0300 lvl=info msg="join connections" obj=join id=7fde53c79a41 l=[::1]:3000 r=[2a03:2880:21ff:4c::]:64660
+t=2025-11-26T22:50:01-0300 lvl=info msg="join connections" obj=join id=0a216ecec164 l=[::1]:3000 r=[2a03:2880:22ff:4e::]:41636
+t=2025-11-26T22:50:03-0300 lvl=info msg="join connections" obj=join id=d841205f046f l=[::1]:3000 r=[2a03:2880:22ff::]:38140
+t=2025-11-26T22:50:03-0300 lvl=info msg="join connections" obj=join id=ef48229a97fa l=[::1]:3000 r=[2a03:2880:22ff:7e::]:56110
+t=2025-11-26T22:56:23-0300 lvl=info msg="join connections" obj=join id=0deb02d9ae35 l=[::1]:3000 r=[2a03:2880:22ff:1::]:47488
+t=2025-11-26T22:56:48-0300 lvl=info msg="join connections" obj=join id=295b85ccae78 l=[::1]:3000 r=[2a03:2880:10ff:9::]:60202
+t=2025-11-26T22:57:13-0300 lvl=info msg=start pg=/api/tunnels id=a84c780080839c97
+t=2025-11-26T22:57:13-0300 lvl=info msg=end pg=/api/tunnels id=a84c780080839c97 status=200 dur=0s
+t=2025-11-26T22:57:19-0300 lvl=info msg="join connections" obj=join id=b59385ce6e1f l=[::1]:3000 r=[2a03:2880:21ff:72::]:53600
+t=2025-11-26T22:57:20-0300 lvl=info msg="join connections" obj=join id=e39a5afbe8b3 l=[::1]:3000 r=[2a03:2880:12ff:1::]:56646
+t=2025-11-26T22:57:21-0300 lvl=info msg=start pg=/api/tunnels id=5a7198be0bd8ec13
+t=2025-11-26T22:57:21-0300 lvl=info msg=end pg=/api/tunnels id=5a7198be0bd8ec13 status=200 dur=0s
+t=2025-11-26T22:59:15-0300 lvl=info msg="join connections" obj=join id=f1814936804d l=[::1]:3000 r=[2a03:2880:22ff:8::]:53600
+t=2025-11-26T22:59:40-0300 lvl=info msg="join connections" obj=join id=bb1a0c4b43d2 l=[::1]:3000 r=[2a03:2880:21ff:a::]:64648
+t=2025-11-26T23:00:11-0300 lvl=info msg="join connections" obj=join id=b56cb91902ca l=[::1]:3000 r=[2a03:2880:12ff::]:43102
+t=2025-11-26T23:00:12-0300 lvl=info msg="join connections" obj=join id=dc34fb9fbf33 l=[::1]:3000 r=[2a03:2880:22ff:70::]:63830
+t=2025-11-26T23:00:42-0300 lvl=info msg="join connections" obj=join id=43cbdbfe8940 l=[::1]:3000 r=[2a03:2880:22ff:9::]:63672
+t=2025-11-26T23:00:44-0300 lvl=info msg="join connections" obj=join id=28ca641994fc l=[::1]:3000 r=[2a03:2880:12ff:1::]:60848
+t=2025-11-26T23:00:44-0300 lvl=info msg="join connections" obj=join id=523559a077b6 l=[::1]:3000 r=[2a03:2880:21ff:45::]:64668
+t=2025-11-26T23:05:28-0300 lvl=info msg="join connections" obj=join id=71dd45b1dcaf l=[::1]:3000 r=[2a03:2880:10ff:42::]:53232
+t=2025-11-26T23:05:30-0300 lvl=info msg="join connections" obj=join id=1a4b3702f01a l=[::1]:3000 r=[2a03:2880:21ff:73::]:42500
+t=2025-11-26T23:05:30-0300 lvl=info msg="join connections" obj=join id=4d13efacb3f7 l=[::1]:3000 r=[2a03:2880:12ff:5::]:42004
+t=2025-11-26T23:14:09-0300 lvl=info msg="join connections" obj=join id=2c03bf8abf46 l=[::1]:3000 r=[2a03:2880:10ff:49::]:64598
+t=2025-11-26T23:31:25-0300 lvl=info msg="join connections" obj=join id=87c6df9c12eb l=[::1]:3000 r=[2a03:2880:22ff:70::]:43264
+t=2025-11-27T00:05:43-0300 lvl=info msg="join connections" obj=join id=0884bccc547f l=[::1]:3000 r=[2a03:2880:22ff:71::]:33208
+t=2025-11-27T00:12:07-0300 lvl=info msg="join connections" obj=join id=9ffd246ad9b0 l=[::1]:3000 r=[2a03:2880:10ff:6::]:33514
+t=2025-11-27T00:12:07-0300 lvl=info msg="join connections" obj=join id=58db89776ee5 l=[::1]:3000 r=[2a03:2880:10ff:72::]:46458
+t=2025-11-27T00:12:07-0300 lvl=info msg="join connections" obj=join id=a38846580f7d l=[::1]:3000 r=[2a03:2880:21ff:47::]:47902
+t=2025-11-27T00:12:07-0300 lvl=info msg="join connections" obj=join id=cfc8fa2184e3 l=[::1]:3000 r=[2a03:2880:10ff:70::]:47144
+t=2025-11-27T00:12:07-0300 lvl=info msg="join connections" obj=join id=348e22c726f9 l=[::1]:3000 r=[2a03:2880:22ff:58::]:44850
+t=2025-11-27T00:12:07-0300 lvl=info msg="join connections" obj=join id=d50cacf2dad4 l=[::1]:3000 r=[2a03:2880:21ff:4b::]:40936
+t=2025-11-27T00:12:07-0300 lvl=info msg="join connections" obj=join id=41d212c224f6 l=[::1]:3000 r=[2a03:2880:22ff:1::]:46862
+t=2025-11-27T00:31:46-0300 lvl=info msg="join connections" obj=join id=5611e80781ef l=[::1]:3000 r=[2a03:2880:21ff:1::]:49902
+t=2025-11-27T00:31:49-0300 lvl=info msg="join connections" obj=join id=433ec9741bb5 l=[::1]:3000 r=[2a03:2880:22ff:9::]:33098
+t=2025-11-27T00:31:51-0300 lvl=info msg="join connections" obj=join id=b5d6164167f8 l=[::1]:3000 r=[2a03:2880:21ff:6::]:47862
+t=2025-11-27T00:44:30-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=a08f60bba7ed clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T00:44:30-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="session closed"
+t=2025-11-27T00:44:40-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 52.67.74.170:443: i/o timeout"
+t=2025-11-27T00:44:50-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 52.67.74.170:443: i/o timeout"
+t=2025-11-27T00:45:01-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 52.67.74.170:443: i/o timeout"
+t=2025-11-27T00:45:13-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 52.67.74.170:443: i/o timeout"
+t=2025-11-27T00:45:27-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 54.207.159.193:443: i/o timeout"
+t=2025-11-27T00:45:45-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 54.207.159.193:443: i/o timeout"
+t=2025-11-27T00:46:11-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 54.207.159.193:443: i/o timeout"
+t=2025-11-27T00:46:51-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 54.232.155.21:443: i/o timeout"
+t=2025-11-27T00:47:31-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T00:48:11-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T00:48:45-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T00:48:45-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T00:56:56-0300 lvl=info msg="join connections" obj=join id=d74b7adb4afe l=[::1]:3000 r=[2a03:2880:22ff:8::]:60900
+t=2025-11-27T01:39:39-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=553a70d62748 clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T01:39:39-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="session closed"
+t=2025-11-27T01:39:49-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 18.231.4.80:443: i/o timeout"
+t=2025-11-27T01:39:52-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T01:39:52-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T01:40:11-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="read tcp 10.60.192.202:60507->18.231.4.80:443: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto."
+t=2025-11-27T01:40:12-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T01:40:12-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T01:40:22-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="read tcp 10.60.192.202:61643->18.231.4.80:443: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto."
+t=2025-11-27T01:40:24-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T01:40:24-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T01:40:26-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=bbb1addde501 clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T01:40:34-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="read tcp 10.60.192.202:51699->18.231.4.80:443: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto."
+t=2025-11-27T01:40:35-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T01:40:35-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T01:40:36-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=091f7a869bbb clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T01:40:47-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=fbd41aeea635 clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T01:41:05-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="read tcp 10.60.192.202:54502->18.231.4.80:443: wsarecv: Se ha anulado una conexión establecida por el software en su equipo host.."
+t=2025-11-27T01:41:06-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T01:41:06-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T01:41:19-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=e2b6480cb54e clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T01:44:30-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=dc489f32068f clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T01:44:30-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="session closed"
+t=2025-11-27T01:44:40-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 18.231.4.80:443: i/o timeout"
+t=2025-11-27T01:44:51-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 18.231.4.80:443: i/o timeout"
+t=2025-11-27T01:45:02-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 18.231.4.80:443: i/o timeout"
+t=2025-11-27T01:45:14-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 54.232.155.21:443: i/o timeout"
+t=2025-11-27T01:45:28-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 52.67.74.170:443: i/o timeout"
+t=2025-11-27T01:45:46-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 52.67.74.170:443: i/o timeout"
+t=2025-11-27T01:46:02-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T01:46:02-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T01:52:28-0300 lvl=info msg="join connections" obj=join id=1a0270e7a545 l=[::1]:3000 r=[2a03:2880:10ff:72::]:47054
+t=2025-11-27T01:52:31-0300 lvl=info msg="join connections" obj=join id=f119a660918c l=[::1]:3000 r=[2a03:2880:12ff:1::]:61168
+t=2025-11-27T01:52:32-0300 lvl=info msg="join connections" obj=join id=4c6dc8f28d67 l=[::1]:3000 r=[2a03:2880:21ff:56::]:53124
+t=2025-11-27T01:52:32-0300 lvl=info msg="join connections" obj=join id=ac443835d00d l=[::1]:3000 r=[2a03:2880:22ff:57::]:48748
+t=2025-11-27T02:03:09-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="read tcp 192.168.1.144:60073->52.67.74.170:443: wsarecv: Se ha anulado una conexión establecida por el software en su equipo host.."
+t=2025-11-27T02:03:11-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T02:03:11-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T02:03:27-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=b4ba90d5cc03 clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T02:07:42-0300 lvl=info msg="join connections" obj=join id=feaa0636703b l=[::1]:3000 r=[2a03:2880:12ff:72::]:58098
+t=2025-11-27T02:07:59-0300 lvl=info msg="join connections" obj=join id=7939fe85cb4b l=[::1]:3000 r=[2a03:2880:22ff:4e::]:50434
+t=2025-11-27T02:19:36-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=40126681ce66 clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T02:19:36-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="session closed"
+t=2025-11-27T02:19:46-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T02:19:56-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T02:20:07-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T02:20:19-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T02:20:33-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T02:20:51-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T02:21:17-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 54.232.155.21:443: i/o timeout"
+t=2025-11-27T02:21:57-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 54.232.155.21:443: i/o timeout"
+t=2025-11-27T02:22:37-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 54.207.159.193:443: i/o timeout"
+t=2025-11-27T02:23:08-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T02:23:08-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T02:27:40-0300 lvl=info msg="join connections" obj=join id=5658543d065a l=[::1]:3000 r=[2a03:2880:21ff:c::]:42726
+t=2025-11-27T02:27:42-0300 lvl=info msg="join connections" obj=join id=631c96a3a89f l=[::1]:3000 r=[2a03:2880:22ff:73::]:59154
+t=2025-11-27T02:27:43-0300 lvl=info msg="join connections" obj=join id=5ae017e9de7e l=[::1]:3000 r=[2a03:2880:22ff:2::]:46564
+t=2025-11-27T02:27:43-0300 lvl=info msg="join connections" obj=join id=bbdb521d9c92 l=[::1]:3000 r=[2a03:2880:10ff:7d::]:39226
+t=2025-11-27T02:46:38-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="read tcp 10.60.192.202:52719->54.207.159.193:443: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto."
+t=2025-11-27T02:46:38-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T02:46:38-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T02:46:43-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=816a925f3fc6 clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T02:47:58-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="read tcp 10.60.192.202:57755->15.229.104.219:443: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto."
+t=2025-11-27T02:48:13-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=ca9e54203287 clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T02:48:20-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to send authentication request: session closed"
+t=2025-11-27T02:48:32-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T02:48:32-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T02:50:51-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="read tcp 10.60.192.202:63060->52.67.74.170:443: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto."
+t=2025-11-27T02:50:53-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T02:50:53-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T02:51:06-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=fd6234ae2cad clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T03:29:09-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=7c57a16243be err="read tcp 10.60.192.202:54617->54.232.155.21:443: wsarecv: Se ha anulado una conexión establecida por el software en su equipo host.."
+t=2025-11-27T03:29:17-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=425dd42e5600 clientid=d05a3fe6b802da0a779d70008181e84e
+t=2025-11-27T03:29:19-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T03:29:30-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T03:29:41-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T03:29:53-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T03:30:07-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 15.229.104.219:443: i/o timeout"
+t=2025-11-27T03:30:15-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T03:30:15-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T03:30:16-0300 lvl=info msg="join connections" obj=join id=187296a4bf7d l=[::1]:3000 r=[2a03:2880:12ff:72::]:33676
+t=2025-11-27T03:30:57-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-11-27T03:30:57-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-11-27T03:30:57-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=7c57a16243be err="reconnecting session closed"
+t=2025-11-27T03:31:45-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-11-27T03:31:45-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-11-27T03:31:45-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-27T03:31:45-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-27T03:31:45-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io: no such host"
+t=2025-11-27T03:31:45-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-27T03:31:46-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-27T03:31:48-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-27T03:31:52-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-27T03:32:00-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-27T03:32:16-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-27T03:32:46-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-27T03:33:16-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-27T03:33:47-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T03:33:47-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T03:33:47-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-11-27T03:34:07-0300 lvl=info msg="join connections" obj=join id=ba389ee0c02d l=[::1]:3000 r=[2a03:2880:12ff:4::]:48526
+t=2025-11-27T03:34:10-0300 lvl=info msg="join connections" obj=join id=d5e144c9251a l=[::1]:3000 r=[2a03:2880:12ff:6::]:41892
+t=2025-11-27T03:34:13-0300 lvl=info msg="join connections" obj=join id=c9c11eb7c3ab l=[::1]:3000 r=[2a03:2880:21ff:45::]:43822
+t=2025-11-27T03:41:42-0300 lvl=info msg="join connections" obj=join id=a15673e8eba7 l=[::1]:3000 r=[2a03:2880:10ff:49::]:51776
+t=2025-11-27T04:03:31-0300 lvl=info msg="join connections" obj=join id=78901f5b7d45 l=[::1]:3000 r=[2a03:2880:21ff:55::]:55468
+t=2025-11-27T04:03:33-0300 lvl=info msg="join connections" obj=join id=00c97da2361e l=[::1]:3000 r=[2a03:2880:10ff:49::]:61434
+t=2025-11-27T04:03:35-0300 lvl=info msg="join connections" obj=join id=dbfa61f61b51 l=[::1]:3000 r=[2a03:2880:21ff:42::]:43078
+t=2025-11-27T04:04:55-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-11-27T04:04:55-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-11-27T04:04:55-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=94bbce0f5ca6 err="reconnecting session closed"
+t=2025-11-27T04:04:55-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-11-27T04:04:55-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=c9ba99cce14d004a28d8bb4f847ee040
+t=2025-11-27T04:04:55-0300 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2025-11-27T23:33:28-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-11-27T23:33:28-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-11-27T23:33:28-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-27T23:33:28-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-27T23:33:28-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-27T23:33:28-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-11-27T23:33:28-0300 lvl=info msg="update available" obj=updater
+t=2025-11-27T23:37:33-0300 lvl=info msg="join connections" obj=join id=842cc1f1be34 l=[::1]:3000 r=[2a03:2880:21ff:b::]:59240
+t=2025-11-27T23:38:46-0300 lvl=info msg="join connections" obj=join id=d5d28425beb7 l=[::1]:3000 r=[2a03:2880:12ff:5::]:54262
+t=2025-11-27T23:38:48-0300 lvl=info msg="join connections" obj=join id=4bdf9b0fc971 l=[::1]:3000 r=[2a03:2880:12ff:70::]:57306
+t=2025-11-27T23:38:48-0300 lvl=info msg="join connections" obj=join id=54e074c0e735 l=[::1]:3000 r=[2a03:2880:10ff:7::]:62750
+t=2025-11-27T23:39:32-0300 lvl=info msg="join connections" obj=join id=f11aa099aeb6 l=[::1]:3000 r=[2a03:2880:22ff:2::]:52910
+t=2025-11-27T23:50:44-0300 lvl=info msg="join connections" obj=join id=8cd3bdfaf1c3 l=[::1]:3000 r=[2a03:2880:22ff:3::]:44894
+t=2025-11-27T23:53:42-0300 lvl=info msg="join connections" obj=join id=1fc5b444609e l=[::1]:3000 r=[2a03:2880:22ff:4::]:36636
+t=2025-11-27T23:53:45-0300 lvl=info msg="join connections" obj=join id=2475d9b7f4d2 l=[::1]:3000 r=[2a03:2880:22ff:73::]:55780
+t=2025-11-27T23:53:45-0300 lvl=info msg="join connections" obj=join id=10d48b309a50 l=[::1]:3000 r=[2a03:2880:22ff:52::]:61336
+t=2025-11-27T23:58:11-0300 lvl=info msg="join connections" obj=join id=13e14d0369ae l=[::1]:3000 r=[2a03:2880:12ff:9::]:41996
+t=2025-11-27T23:58:12-0300 lvl=info msg="join connections" obj=join id=9696a30a93aa l=[::1]:3000 r=[2a03:2880:10ff:9::]:59922
+t=2025-11-28T00:06:16-0300 lvl=info msg="join connections" obj=join id=546dcb831641 l=[::1]:3000 r=[2a03:2880:12ff:4::]:63016
+t=2025-11-28T00:06:25-0300 lvl=info msg="join connections" obj=join id=cec2114d60bc l=[::1]:3000 r=[2a03:2880:22ff:8::]:61220
+t=2025-11-28T00:10:30-0300 lvl=info msg="join connections" obj=join id=36def3dbadd5 l=[::1]:3000 r=[2a03:2880:22ff:74::]:38654
+t=2025-11-28T00:21:08-0300 lvl=info msg="join connections" obj=join id=69ce7eb03ac9 l=[::1]:3000 r=[2a03:2880:10ff:6::]:34712
+t=2025-11-28T00:21:51-0300 lvl=info msg="join connections" obj=join id=bb5fb946091a l=[::1]:3000 r=[2a03:2880:22ff:57::]:33720
+t=2025-11-28T00:45:45-0300 lvl=info msg="join connections" obj=join id=74a535cfc6eb l=[::1]:3000 r=[2a03:2880:22ff::]:46658
+t=2025-11-28T01:39:43-0300 lvl=info msg="join connections" obj=join id=2612423e3136 l=[::1]:3000 r=[2a03:2880:22ff:7::]:39304
+t=2025-11-28T01:39:45-0300 lvl=info msg="join connections" obj=join id=eb9a2f3cc763 l=[::1]:3000 r=[2a03:2880:22ff:52::]:38130
+t=2025-11-28T01:39:46-0300 lvl=info msg="join connections" obj=join id=24d4fa2aff01 l=[::1]:3000 r=[2a03:2880:21ff:7::]:35406
+t=2025-11-28T01:39:48-0300 lvl=info msg="join connections" obj=join id=e0c143476b7e l=[::1]:3000 r=[2a03:2880:10ff:4e::]:57930
+t=2025-11-28T01:57:52-0300 lvl=info msg="join connections" obj=join id=9101fe26b09d l=[::1]:3000 r=[2a03:2880:21ff:56::]:45622
+t=2025-11-28T01:57:54-0300 lvl=info msg="join connections" obj=join id=01aaaef7c8d0 l=[::1]:3000 r=[2a03:2880:22ff:52::]:32984
+t=2025-11-28T01:57:55-0300 lvl=info msg="join connections" obj=join id=9e216e85cdf7 l=[::1]:3000 r=[2a03:2880:22ff:3::]:51666
+t=2025-11-28T02:14:53-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=1e74bab67a7e clientid=d069446d66a6519f7bf9cccdc1248b33
+t=2025-11-28T02:14:53-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=4e79c96881f6 err="session closed"
+t=2025-11-28T02:15:03-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2025-11-28T02:15:04-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-28T02:15:05-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-28T02:15:07-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2025-11-28T02:15:21-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2025-11-28T02:15:39-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2025-11-28T02:16:05-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2025-11-28T02:16:37-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-28T02:16:37-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-28T02:36:36-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=4e79c96881f6 err="read tcp 10.86.167.202:64536->54.232.155.21:443: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto."
+t=2025-11-28T02:36:37-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-28T02:36:37-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-28T02:36:52-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=437e6f744ae3 clientid=d069446d66a6519f7bf9cccdc1248b33
+t=2025-11-28T02:37:47-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=4e79c96881f6 err="read tcp 10.86.167.202:50063->18.231.4.80:443: wsarecv: Se ha anulado una conexión establecida por el software en su equipo host.."
+t=2025-11-28T02:37:47-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-28T02:37:47-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-28T02:38:02-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=1de328c5e2ea clientid=d069446d66a6519f7bf9cccdc1248b33
+t=2025-11-28T02:52:53-0300 lvl=info msg="join connections" obj=join id=e750221d80c9 l=[::1]:3000 r=[2a03:2880:10ff:7::]:38792
+t=2025-11-28T02:52:56-0300 lvl=info msg="join connections" obj=join id=351bb5f8a09d l=[::1]:3000 r=[2a03:2880:22ff:9::]:46248
+t=2025-11-28T02:52:56-0300 lvl=info msg="join connections" obj=join id=3ea5ed44654b l=[::1]:3000 r=[2a03:2880:21ff:6::]:34048
+t=2025-11-28T02:59:38-0300 lvl=info msg="join connections" obj=join id=70a9dfba1e8d l=[::1]:3000 r=[2a03:2880:22ff:72::]:46286
+t=2025-11-28T03:03:21-0300 lvl=info msg="join connections" obj=join id=2e8b3db78826 l=[::1]:3000 r=[2a03:2880:22ff:71::]:45120
+t=2025-11-28T03:03:23-0300 lvl=info msg="join connections" obj=join id=b13449159a1f l=[::1]:3000 r=[2a03:2880:12ff:4::]:62346
+t=2025-11-28T03:03:24-0300 lvl=info msg="join connections" obj=join id=d1cf7ed09632 l=[::1]:3000 r=[2a03:2880:12ff:8::]:64784
+t=2025-11-28T03:26:16-0300 lvl=info msg="join connections" obj=join id=d73eb4c2a231 l=[::1]:3000 r=[2a03:2880:22ff:4::]:36938
+t=2025-11-28T03:39:25-0300 lvl=info msg="join connections" obj=join id=1cf0474d0753 l=[::1]:3000 r=[2a03:2880:22ff:4::]:51602
+t=2025-11-28T03:39:25-0300 lvl=info msg="join connections" obj=join id=11a8ddc2ae6e l=[::1]:3000 r=[2a03:2880:21ff:a::]:43328
+t=2025-11-28T03:39:25-0300 lvl=info msg="join connections" obj=join id=c103e690221c l=[::1]:3000 r=[2a03:2880:12ff:73::]:60344
+t=2025-11-28T03:39:25-0300 lvl=info msg="join connections" obj=join id=0a0d7e1d40c0 l=[::1]:3000 r=[2a03:2880:22ff:7::]:39994
+t=2025-11-28T04:42:44-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-11-28T04:42:44-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-11-28T04:42:44-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=4e79c96881f6 err="reconnecting session closed"
+t=2025-11-28T04:42:44-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-11-28T04:42:44-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=d04dfd1ed8e500d656062a97891906f4
+t=2025-11-28T04:42:44-0300 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2025-11-28T04:42:44-0300 lvl=warn msg="Error restarting forwarder" name=command_line err="failed to start tunnel: session closed"
+t=2025-11-28T04:42:44-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-11-28T04:42:44-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-11-28T04:42:44-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-28T04:42:44-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-28T04:42:44-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-28T04:42:44-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-11-28T04:42:45-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-11-28T04:42:45-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-11-28T04:42:45-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-11-28T04:42:45-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=5e505d9517fc err="reconnecting session closed"
+t=2025-11-28T04:42:45-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-11-28T23:15:01-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-11-28T23:15:01-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-11-28T23:15:01-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-28T23:15:01-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-28T23:15:01-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-28T23:15:02-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-11-28T23:15:02-0300 lvl=info msg="update available" obj=updater
+t=2025-11-28T23:41:32-0300 lvl=info msg="join connections" obj=join id=648c1b8d8c86 l=[::1]:3000 r=[2a03:2880:22ff:58::]:48214
+t=2025-11-28T23:41:35-0300 lvl=info msg="join connections" obj=join id=49b3ac2ddaac l=[::1]:3000 r=[2a03:2880:10ff:71::]:60396
+t=2025-11-28T23:41:36-0300 lvl=info msg="join connections" obj=join id=90c6644377fc l=[::1]:3000 r=[2a03:2880:10ff:71::]:41824
+t=2025-11-28T23:41:36-0300 lvl=info msg="join connections" obj=join id=b37705c8fea1 l=[::1]:3000 r=[2a03:2880:10ff:74::]:41136
+t=2025-11-28T23:59:02-0300 lvl=info msg="join connections" obj=join id=761438ac01cb l=[::1]:3000 r=[2a03:2880:12ff:7::]:55206
+t=2025-11-29T00:25:18-0300 lvl=info msg="join connections" obj=join id=5509de542fa5 l=[::1]:3000 r=[2a03:2880:10ff:7d::]:35520
+t=2025-11-29T00:25:20-0300 lvl=info msg="join connections" obj=join id=3cec99447a16 l=[::1]:3000 r=[2a03:2880:22ff:9::]:47810
+t=2025-11-29T00:25:21-0300 lvl=info msg="join connections" obj=join id=ad8136cc41f2 l=[::1]:3000 r=[2a03:2880:10ff:5::]:36464
+t=2025-11-29T00:25:21-0300 lvl=info msg="join connections" obj=join id=a068ccd21afa l=[::1]:3000 r=[2a03:2880:22ff:70::]:48954
+t=2025-11-29T01:13:15-0300 lvl=info msg="join connections" obj=join id=79191aa9251d l=[::1]:3000 r=[2a03:2880:12ff:73::]:34218
+t=2025-11-29T01:13:17-0300 lvl=info msg="join connections" obj=join id=92f9271e1a32 l=[::1]:3000 r=[2a03:2880:22ff:57::]:55694
+t=2025-11-29T01:13:19-0300 lvl=info msg="join connections" obj=join id=c14487c82790 l=[::1]:3000 r=[2a03:2880:12ff:5::]:38936
+t=2025-11-29T01:33:56-0300 lvl=info msg="join connections" obj=join id=627f2e2322b7 l=[::1]:3000 r=[2a03:2880:12ff:1::]:47930
+t=2025-11-29T01:33:58-0300 lvl=info msg="join connections" obj=join id=8cb698ef4d5e l=[::1]:3000 r=[2a03:2880:21ff:4a::]:46878
+t=2025-11-29T01:33:59-0300 lvl=info msg="join connections" obj=join id=9952db9d6f10 l=[::1]:3000 r=[2a03:2880:22ff:71::]:64682
+t=2025-11-29T01:33:59-0300 lvl=info msg="join connections" obj=join id=318ce7771a75 l=[::1]:3000 r=[2a03:2880:12ff:6::]:34578
+t=2025-11-29T01:37:20-0300 lvl=info msg="join connections" obj=join id=436dd7fff02d l=[::1]:3000 r=[2a03:2880:12ff::]:58060
+t=2025-11-29T01:51:13-0300 lvl=info msg="join connections" obj=join id=d8a2f7e13f7f l=[::1]:3000 r=[2a03:2880:22ff:52::]:43112
+t=2025-11-29T01:51:15-0300 lvl=info msg="join connections" obj=join id=0de0729524be l=[::1]:3000 r=[2a03:2880:21ff:10::]:54868
+t=2025-11-29T01:51:16-0300 lvl=info msg="join connections" obj=join id=72ee1c4732d5 l=[::1]:3000 r=[2a03:2880:22ff:58::]:40524
+t=2025-11-29T01:51:16-0300 lvl=info msg="join connections" obj=join id=fbf777a80a6d l=[::1]:3000 r=[2a03:2880:22ff:3::]:55112
+t=2025-11-29T01:51:48-0300 lvl=info msg="join connections" obj=join id=b50b65eee5d3 l=[::1]:3000 r=[2a03:2880:10ff:42::]:33210
+t=2025-11-29T01:51:50-0300 lvl=info msg="join connections" obj=join id=0b9038d20382 l=[::1]:3000 r=[2a03:2880:21ff:9::]:45814
+t=2025-11-29T01:51:51-0300 lvl=info msg="join connections" obj=join id=1d92b0679073 l=[::1]:3000 r=[2a03:2880:22ff:7::]:37426
+t=2025-11-29T02:12:59-0300 lvl=info msg="join connections" obj=join id=b44329ae7c88 l=[::1]:3000 r=[2a03:2880:12ff:74::]:47502
+t=2025-11-29T02:41:46-0300 lvl=info msg="join connections" obj=join id=61b40aa83413 l=[::1]:3000 r=[2a03:2880:12ff:72::]:46040
+t=2025-11-29T02:47:23-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-11-29T02:47:23-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-11-29T02:47:23-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=7766e8d0a645 err="reconnecting session closed"
+t=2025-11-29T02:47:23-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-11-29T02:47:23-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=753cd2a16bb496f8ff64732a43a36f76
+t=2025-11-29T02:47:23-0300 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2025-11-29T22:57:36-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-11-29T22:57:36-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-11-29T22:57:36-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-29T22:57:37-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-29T22:57:37-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-29T22:57:37-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-11-29T22:57:38-0300 lvl=info msg="update available" obj=updater
+t=2025-11-29T23:26:46-0300 lvl=info msg="join connections" obj=join id=206ddbd22d42 l=[::1]:3000 r=[2a03:2880:22ff::]:59244
+t=2025-11-29T23:26:50-0300 lvl=info msg="join connections" obj=join id=d752f19da387 l=[::1]:3000 r=[2a03:2880:12ff:70::]:52192
+t=2025-11-29T23:26:51-0300 lvl=info msg="join connections" obj=join id=b26062105717 l=[::1]:3000 r=[2a03:2880:22ff:72::]:61964
+t=2025-11-30T00:02:35-0300 lvl=info msg="join connections" obj=join id=4073284c59f3 l=[::1]:3000 r=[2a03:2880:12ff:71::]:65340
+t=2025-11-30T00:02:37-0300 lvl=info msg="join connections" obj=join id=8c4d2ece2a2b l=[::1]:3000 r=[2a03:2880:12ff:3::]:60294
+t=2025-11-30T00:02:38-0300 lvl=info msg="join connections" obj=join id=ef1150d3a784 l=[::1]:3000 r=[2a03:2880:21ff:d::]:54490
+t=2025-11-30T00:02:39-0300 lvl=info msg="join connections" obj=join id=99b88cd22483 l=[::1]:3000 r=[2a03:2880:21ff:48::]:59602
+t=2025-11-30T00:32:44-0300 lvl=info msg="join connections" obj=join id=6d9b9164944d l=[::1]:3000 r=[2a03:2880:21ff:55::]:37990
+t=2025-11-30T00:32:47-0300 lvl=info msg="join connections" obj=join id=6060e48d435e l=[::1]:3000 r=[2a03:2880:10ff:42::]:57226
+t=2025-11-30T00:32:49-0300 lvl=info msg="join connections" obj=join id=afee53b8ae76 l=[::1]:3000 r=[2a03:2880:12ff:5::]:33296
+t=2025-11-30T00:51:56-0300 lvl=info msg="join connections" obj=join id=eb738b8fa986 l=[::1]:3000 r=[2a03:2880:10ff:5::]:53950
+t=2025-11-30T00:51:58-0300 lvl=info msg="join connections" obj=join id=2847c9ad82ae l=[::1]:3000 r=[2a03:2880:21ff:41::]:59068
+t=2025-11-30T00:51:59-0300 lvl=info msg="join connections" obj=join id=cd0efa5bf2c5 l=[::1]:3000 r=[2a03:2880:22ff::]:57572
+t=2025-11-30T00:51:59-0300 lvl=info msg="join connections" obj=join id=b467ac3730f1 l=[::1]:3000 r=[2a03:2880:21ff:49::]:61154
+t=2025-11-30T01:38:47-0300 lvl=info msg="join connections" obj=join id=688b6503433f l=[::1]:3000 r=[2a03:2880:10ff:48::]:36832
+t=2025-11-30T01:48:19-0300 lvl=info msg="join connections" obj=join id=d1b83328b734 l=[::1]:3000 r=[2a03:2880:22ff:70::]:55178
+t=2025-11-30T01:48:21-0300 lvl=info msg="join connections" obj=join id=3bb86b05c27e l=[::1]:3000 r=[2a03:2880:22ff:1::]:40000
+t=2025-11-30T01:48:22-0300 lvl=info msg="join connections" obj=join id=07fd1d5a6f30 l=[::1]:3000 r=[2a03:2880:22ff:3::]:57248
+t=2025-11-30T02:06:01-0300 lvl=info msg="join connections" obj=join id=ff6b83aeb737 l=[::1]:3000 r=[2a03:2880:22ff::]:38728
+t=2025-11-30T02:06:03-0300 lvl=info msg="join connections" obj=join id=15a75ab5da1f l=[::1]:3000 r=[2a03:2880:12ff:8::]:60208
+t=2025-11-30T02:06:04-0300 lvl=info msg="join connections" obj=join id=28b2c2517f2d l=[::1]:3000 r=[2a03:2880:22ff:70::]:51130
+t=2025-11-30T02:08:12-0300 lvl=info msg="join connections" obj=join id=c3ee8f8c50d3 l=[::1]:3000 r=[2a03:2880:22ff::]:33354
+t=2025-11-30T02:08:12-0300 lvl=info msg="join connections" obj=join id=4e3c7cecd48f l=[::1]:3000 r=[2a03:2880:12ff:73::]:56484
+t=2025-11-30T02:27:55-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-11-30T02:27:55-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-11-30T02:27:55-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=77f5524c6749 err="reconnecting session closed"
+t=2025-11-30T02:27:55-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-11-30T02:27:55-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=d934233e65f5bac036c4ba2b9d1878bf
+t=2025-11-30T02:27:55-0300 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2025-11-30T22:52:21-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-11-30T22:52:21-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-11-30T22:52:22-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-30T22:52:22-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-30T22:52:22-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-30T22:52:22-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-11-30T22:52:24-0300 lvl=info msg="update available" obj=updater
+t=2025-11-30T22:57:12-0300 lvl=info msg="join connections" obj=join id=7ef302694860 l=[::1]:3000 r=[2a03:2880:12ff:2::]:51872
+t=2025-11-30T22:57:15-0300 lvl=info msg="join connections" obj=join id=bdc6ae6aa66d l=[::1]:3000 r=[2a03:2880:22ff:6::]:51290
+t=2025-11-30T22:58:19-0300 lvl=info msg="join connections" obj=join id=48fee03f3483 l=[::1]:3000 r=[2a03:2880:12ff:7::]:57092
+t=2025-11-30T22:58:21-0300 lvl=info msg="join connections" obj=join id=c058051f1e5c l=[::1]:3000 r=[2a03:2880:12ff:5::]:45734
+t=2025-11-30T23:05:29-0300 lvl=info msg="join connections" obj=join id=9366479eb457 l=[::1]:3000 r=[2a03:2880:10ff::]:57110
+t=2025-11-30T23:05:31-0300 lvl=info msg="join connections" obj=join id=197ca24c965e l=[::1]:3000 r=[2a03:2880:10ff:49::]:42210
+t=2025-12-01T01:38:06-0300 lvl=info msg="join connections" obj=join id=a472379804ee l=[::1]:3000 r=[2a03:2880:12ff:71::]:60448
+t=2025-12-01T02:44:42-0300 lvl=info msg="join connections" obj=join id=c239df40876f l=[::1]:3000 r=[2a03:2880:22ff:4e::]:44946
+t=2025-12-01T03:09:34-0300 lvl=info msg="join connections" obj=join id=5c9302d5f04d l=[::1]:3000 r=[2a03:2880:22ff:1::]:37118
+t=2025-12-01T03:28:15-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-12-01T03:28:15-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-12-01T03:28:15-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=932735d7e90f err="reconnecting session closed"
+t=2025-12-01T03:28:15-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-01T03:28:15-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=32da104ca434a29fe1c2c4b3c608060c
+t=2025-12-01T03:28:15-0300 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2025-12-01T03:28:15-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-01T03:28:15-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-01T03:28:15-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-01T03:28:15-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-01T03:28:15-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-01T03:28:16-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-12-01T03:28:16-0300 lvl=info msg="update available" obj=updater
+t=2025-12-01T03:28:20-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-12-01T03:28:20-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-12-01T03:28:20-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=f74b54072d64 err="reconnecting session closed"
+t=2025-12-01T03:28:20-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-01T03:28:20-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=9725d3a6a69bfc609683b4494a15b484
+t=2025-12-01T13:39:06-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-01T13:39:06-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-01T13:39:06-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-01T13:39:06-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-01T13:39:06-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-01T13:39:06-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-12-01T13:39:07-0300 lvl=info msg="update available" obj=updater
+t=2025-12-01T14:03:39-0300 lvl=info msg="join connections" obj=join id=ef74af3af846 l=[::1]:3000 r=[2a03:2880:12ff:47::]:53812
+t=2025-12-01T14:04:34-0300 lvl=info msg="join connections" obj=join id=2a966e4e0b83 l=[::1]:3000 r=[2a03:2880:12ff:71::]:34468
+t=2025-12-01T14:33:46-0300 lvl=info msg="join connections" obj=join id=3deb6b04d5d0 l=[::1]:3000 r=[2a03:2880:22ff:73::]:56114
+t=2025-12-01T14:34:16-0300 lvl=info msg="join connections" obj=join id=cb8cec381fd9 l=[::1]:3000 r=[2a03:2880:10ff:70::]:42586
+t=2025-12-01T14:45:21-0300 lvl=info msg="join connections" obj=join id=3efe129ad130 l=[::1]:3000 r=[2a03:2880:21ff:72::]:54510
+t=2025-12-01T14:45:34-0300 lvl=info msg="join connections" obj=join id=72adea82898c l=[::1]:3000 r=[2a03:2880:12ff:47::]:34692
+t=2025-12-01T14:45:42-0300 lvl=info msg="join connections" obj=join id=0078b19f006f l=[::1]:3000 r=[2a03:2880:22ff:72::]:57110
+t=2025-12-01T14:53:01-0300 lvl=info msg="join connections" obj=join id=1fe97b069892 l=[::1]:3000 r=[2a03:2880:10ff:54::]:36992
+t=2025-12-01T14:53:17-0300 lvl=info msg="join connections" obj=join id=eeac958c6753 l=[::1]:3000 r=[2a03:2880:22ff:5::]:44676
+t=2025-12-01T15:49:54-0300 lvl=info msg="join connections" obj=join id=60ea02955f54 l=[::1]:3000 r=[2a03:2880:21ff:40::]:61774
+t=2025-12-01T15:50:21-0300 lvl=info msg="join connections" obj=join id=34a31a232904 l=[::1]:3000 r=[2a03:2880:21ff:7e::]:61670
+t=2025-12-01T19:10:58-0300 lvl=info msg="join connections" obj=join id=c3c862433a9c l=[::1]:3000 r=[2a03:2880:21ff:f::]:44894
+t=2025-12-01T19:11:23-0300 lvl=info msg="join connections" obj=join id=536e8abd7479 l=[::1]:3000 r=[2a03:2880:21ff:10::]:36928
+t=2025-12-01T19:11:24-0300 lvl=info msg="join connections" obj=join id=560ad9d88ce9 l=[::1]:3000 r=[2a03:2880:21ff:4c::]:46126
+t=2025-12-01T19:11:30-0300 lvl=info msg="join connections" obj=join id=d1c092ee4b96 l=[::1]:3000 r=[2a03:2880:10ff:4d::]:63528
+t=2025-12-01T19:11:49-0300 lvl=info msg="join connections" obj=join id=2b5c25856a5a l=[::1]:3000 r=[2a03:2880:21ff:6::]:62446
+t=2025-12-01T19:12:08-0300 lvl=info msg="join connections" obj=join id=67cb9b2e2412 l=[::1]:3000 r=[2a03:2880:21ff:71::]:44330
+t=2025-12-01T19:39:07-0300 lvl=info msg="update available" obj=updater
+t=2025-12-01T21:34:57-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=0b214e0dad6a clientid=c25ebd2a2504ac6c95ecdbf68f04f055
+t=2025-12-01T21:34:57-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=9a88fd463ca6 err="session closed"
+t=2025-12-01T21:34:57-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-01T21:34:57-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-02T00:33:24-0300 lvl=info msg="join connections" obj=join id=60f69b6d153e l=[::1]:3000 r=[2a03:2880:21ff:41::]:36122
+t=2025-12-02T00:33:26-0300 lvl=info msg="join connections" obj=join id=57ff2f1dd6b4 l=[::1]:3000 r=[2a03:2880:22ff:5::]:61586
+t=2025-12-02T01:39:07-0300 lvl=info msg="update available" obj=updater
+t=2025-12-02T01:53:59-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-12-02T01:53:59-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-12-02T01:53:59-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=9a88fd463ca6 err="reconnecting session closed"
+t=2025-12-02T01:53:59-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-02T01:53:59-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=673c71eb2854b9908d77adc621886c52
+t=2025-12-02T01:53:59-0300 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2025-12-02T01:53:59-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-02T01:53:59-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-02T01:53:59-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-02T01:53:59-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-02T01:53:59-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-02T01:53:59-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-12-02T01:53:59-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-12-02T01:53:59-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-12-02T01:53:59-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=03c823dd4050 err="reconnecting session closed"
+t=2025-12-02T01:53:59-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-02T15:23:26-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-02T15:23:27-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-02T15:23:27-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-02T15:23:27-0300 lvl=info msg="update available" obj=updater
+t=2025-12-02T15:23:28-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-02T15:23:28-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-02T15:23:28-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-12-02T18:20:49-0300 lvl=info msg="join connections" obj=join id=38b9ac7d08ac l=[::1]:3000 r=[2a03:2880:22ff:52::]:47634
+t=2025-12-02T18:29:50-0300 lvl=info msg="join connections" obj=join id=866e69613e4b l=[::1]:3000 r=[2a03:2880:22ff:47::]:52798
+t=2025-12-02T18:29:51-0300 lvl=info msg="join connections" obj=join id=d0924fc19ad7 l=[::1]:3000 r=[2a03:2880:10ff:72::]:43838
+t=2025-12-02T18:34:46-0300 lvl=info msg="join connections" obj=join id=d849216eda18 l=[::1]:3000 r=[2a03:2880:22ff:5e::]:55852
+t=2025-12-02T18:57:53-0300 lvl=info msg="join connections" obj=join id=b77396bdd73b l=[::1]:3000 r=[2a03:2880:21ff:c::]:39366
+t=2025-12-02T18:58:23-0300 lvl=info msg="join connections" obj=join id=679c291def08 l=[::1]:3000 r=[2a03:2880:22ff:5::]:57878
+t=2025-12-02T18:58:47-0300 lvl=info msg="join connections" obj=join id=1ae3b813c668 l=[::1]:3000 r=[2a03:2880:10ff:43::]:56666
+t=2025-12-02T21:23:28-0300 lvl=info msg="update available" obj=updater
+t=2025-12-02T23:41:37-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-12-02T23:41:37-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-12-02T23:41:37-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=474ca0b07984 err="reconnecting session closed"
+t=2025-12-02T23:41:37-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-02T23:41:37-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-02T23:41:37-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-02T23:41:37-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-02T23:41:37-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-02T23:41:37-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-12-02T23:41:37-0300 lvl=info msg="update available" obj=updater
+t=2025-12-02T23:41:42-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-12-02T23:41:42-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-12-02T23:41:42-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=7e64b5e35f6f err="reconnecting session closed"
+t=2025-12-02T23:41:42-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-02T23:42:20-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-02T23:42:20-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-02T23:42:20-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-02T23:42:21-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-02T23:42:21-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-02T23:42:21-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-12-02T23:42:21-0300 lvl=info msg="update available" obj=updater
+t=2025-12-02T23:56:13-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-12-02T23:56:13-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-12-02T23:56:13-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=9d1511e0b0da err="reconnecting session closed"
+t=2025-12-02T23:56:13-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-03T21:42:33-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-03T21:42:34-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-03T21:42:34-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-03T21:42:34-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-03T21:42:34-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-03T21:42:34-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-12-03T21:42:34-0300 lvl=info msg="update available" obj=updater
+t=2025-12-03T22:04:46-0300 lvl=info msg="join connections" obj=join id=8b0378753184 l=[::1]:3000 r=[2a03:2880:10ff:7::]:44442
+t=2025-12-03T22:04:57-0300 lvl=info msg="join connections" obj=join id=d5b0a38be384 l=[::1]:3000 r=[2a03:2880:22ff:4e::]:36200
+t=2025-12-03T22:04:58-0300 lvl=info msg="join connections" obj=join id=e1ba8f6725e6 l=[::1]:3000 r=[2a03:2880:10ff:53::]:39882
+t=2025-12-03T22:06:41-0300 lvl=info msg="join connections" obj=join id=a105a390d71a l=[::1]:3000 r=[2a03:2880:10ff:6::]:34710
+t=2025-12-03T22:06:47-0300 lvl=info msg="join connections" obj=join id=602b70a78017 l=[::1]:3000 r=[2a03:2880:10ff:7::]:33004
+t=2025-12-03T22:06:47-0300 lvl=info msg="join connections" obj=join id=c7fc6fbf160a l=[::1]:3000 r=[2a03:2880:10ff:1::]:49670
+t=2025-12-03T22:07:03-0300 lvl=info msg="join connections" obj=join id=266eb28437b6 l=[::1]:3000 r=[2a03:2880:12ff:73::]:59094
+t=2025-12-03T22:07:11-0300 lvl=info msg="join connections" obj=join id=2b68fbe861f0 l=[::1]:3000 r=[2a03:2880:22ff:2::]:54784
+t=2025-12-03T22:07:11-0300 lvl=info msg="join connections" obj=join id=46325eb04e81 l=[::1]:3000 r=[2a03:2880:21ff:40::]:54492
+t=2025-12-03T22:07:11-0300 lvl=info msg="join connections" obj=join id=c61a4436cdf6 l=[::1]:3000 r=[2a03:2880:10ff:4::]:64546
+t=2025-12-03T22:07:44-0300 lvl=info msg="join connections" obj=join id=2cfcd37c9c01 l=[::1]:3000 r=[2a03:2880:10ff:7d::]:59008
+t=2025-12-03T22:07:51-0300 lvl=info msg="join connections" obj=join id=6fbb7ebff52f l=[::1]:3000 r=[2a03:2880:22ff:4e::]:42662
+t=2025-12-03T22:07:51-0300 lvl=info msg="join connections" obj=join id=351b9b1df60c l=[::1]:3000 r=[2a03:2880:22ff:5::]:35248
+t=2025-12-03T22:09:07-0300 lvl=info msg="join connections" obj=join id=f7e3c97cf1df l=[::1]:3000 r=[2a03:2880:10ff:6::]:53522
+t=2025-12-03T22:09:20-0300 lvl=info msg="join connections" obj=join id=22b9c0d5ddeb l=[::1]:3000 r=[2a03:2880:21ff:42::]:48200
+t=2025-12-03T22:09:20-0300 lvl=info msg="join connections" obj=join id=c3c16a524a83 l=[::1]:3000 r=[2a03:2880:22ff:54::]:53592
+t=2025-12-03T22:12:53-0300 lvl=info msg="join connections" obj=join id=12435c464320 l=[::1]:3000 r=[2a03:2880:10ff:42::]:41718
+t=2025-12-03T22:12:55-0300 lvl=info msg="join connections" obj=join id=850627333e44 l=[::1]:3000 r=[2a03:2880:12ff:4::]:46550
+t=2025-12-03T22:13:05-0300 lvl=info msg="join connections" obj=join id=942798d22c87 l=[::1]:3000 r=[2a03:2880:12ff::]:49086
+t=2025-12-03T22:13:05-0300 lvl=info msg="join connections" obj=join id=f7980bab1d40 l=[::1]:3000 r=[2a03:2880:10ff:4::]:49034
+t=2025-12-03T22:13:06-0300 lvl=info msg="join connections" obj=join id=bf605a1bd3c1 l=[::1]:3000 r=[2a03:2880:21ff:70::]:59600
+t=2025-12-03T22:13:06-0300 lvl=info msg="join connections" obj=join id=b79e681a4da7 l=[::1]:3000 r=[2a03:2880:22ff:5e::]:40918
+t=2025-12-03T22:13:32-0300 lvl=info msg="join connections" obj=join id=d59593b482ed l=[::1]:3000 r=[2a03:2880:10ff:4d::]:45330
+t=2025-12-03T22:13:38-0300 lvl=info msg="join connections" obj=join id=0385c0eb4672 l=[::1]:3000 r=[2a03:2880:12ff:74::]:52822
+t=2025-12-03T22:13:38-0300 lvl=info msg="join connections" obj=join id=fc63407c97b0 l=[::1]:3000 r=[2a03:2880:22ff:47::]:48230
+t=2025-12-03T22:13:52-0300 lvl=info msg="join connections" obj=join id=c8e251439ff8 l=[::1]:3000 r=[2a03:2880:10ff:74::]:52646
+t=2025-12-03T22:13:53-0300 lvl=info msg="join connections" obj=join id=d09a33464383 l=[::1]:3000 r=[2a03:2880:10ff:2::]:47102
+t=2025-12-03T22:14:04-0300 lvl=info msg="join connections" obj=join id=fedcdb109f48 l=[::1]:3000 r=[2a03:2880:10ff:9::]:35538
+t=2025-12-03T22:14:05-0300 lvl=info msg="join connections" obj=join id=a912dc08c977 l=[::1]:3000 r=[2a03:2880:10ff:2::]:49608
+t=2025-12-03T22:14:05-0300 lvl=info msg="join connections" obj=join id=4c82cb768c7e l=[::1]:3000 r=[2a03:2880:12ff:2::]:47124
+t=2025-12-03T22:14:06-0300 lvl=info msg="join connections" obj=join id=0045398b6e3b l=[::1]:3000 r=[2a03:2880:12ff:72::]:55726
+t=2025-12-03T22:14:37-0300 lvl=info msg="join connections" obj=join id=fa0d9eab0372 l=[::1]:3000 r=[2a03:2880:10ff:48::]:64262
+t=2025-12-03T22:14:45-0300 lvl=info msg="join connections" obj=join id=7b45e00d7906 l=[::1]:3000 r=[2a03:2880:22ff:2::]:45938
+t=2025-12-03T22:14:45-0300 lvl=info msg="join connections" obj=join id=be2112b97d8b l=[::1]:3000 r=[2a03:2880:22ff:1::]:52194
+t=2025-12-03T22:14:45-0300 lvl=info msg="join connections" obj=join id=a7d64c323f96 l=[::1]:3000 r=[2a03:2880:21ff:1::]:50010
+t=2025-12-03T22:14:52-0300 lvl=info msg="join connections" obj=join id=9c1a6bea868c l=[::1]:3000 r=[2a03:2880:12ff:3::]:56112
+t=2025-12-03T22:14:52-0300 lvl=info msg="join connections" obj=join id=e51d1ce23505 l=[::1]:3000 r=[2a03:2880:10ff:4::]:59938
+t=2025-12-03T22:15:59-0300 lvl=info msg="join connections" obj=join id=5ca88f095fe1 l=[::1]:3000 r=[2a03:2880:12ff:71::]:46942
+t=2025-12-03T22:16:07-0300 lvl=info msg="join connections" obj=join id=c2d9ec6d89d9 l=[::1]:3000 r=[2a03:2880:22ff:4e::]:47670
+t=2025-12-03T22:16:08-0300 lvl=info msg="join connections" obj=join id=bdc27a7397dd l=[::1]:3000 r=[2a03:2880:10ff:71::]:36462
+t=2025-12-03T22:16:37-0300 lvl=info msg="join connections" obj=join id=1523241547ce l=[::1]:3000 r=[2a03:2880:22ff:8::]:34920
+t=2025-12-03T22:16:44-0300 lvl=info msg="join connections" obj=join id=87cf19698f94 l=[::1]:3000 r=[2a03:2880:21ff:7::]:47772
+t=2025-12-03T22:16:44-0300 lvl=info msg="join connections" obj=join id=ee5efbba556f l=[::1]:3000 r=[2a03:2880:22ff:5e::]:51458
+t=2025-12-03T22:19:06-0300 lvl=info msg="join connections" obj=join id=a768b1982ccc l=[::1]:3000 r=[2a03:2880:22ff:52::]:41856
+t=2025-12-03T22:19:14-0300 lvl=info msg="join connections" obj=join id=3c3b77886951 l=[::1]:3000 r=[2a03:2880:22ff:2::]:56162
+t=2025-12-03T22:19:14-0300 lvl=info msg="join connections" obj=join id=2fb49fd3de05 l=[::1]:3000 r=[2a03:2880:10ff:8::]:53838
+t=2025-12-03T22:37:13-0300 lvl=info msg="join connections" obj=join id=29ae9b3dcbe7 l=[::1]:3000 r=[2a03:2880:10ff:42::]:46252
+t=2025-12-03T22:37:13-0300 lvl=info msg="join connections" obj=join id=9d9e159afc03 l=[::1]:3000 r=[2a03:2880:22ff:8::]:57240
+t=2025-12-03T22:47:43-0300 lvl=info msg=start pg=/api/tunnels id=1b5e0f0ed5b0ad28
+t=2025-12-03T22:47:43-0300 lvl=info msg=end pg=/api/tunnels id=1b5e0f0ed5b0ad28 status=200 dur=0s
+t=2025-12-03T23:28:10-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-03T23:28:10-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-03T23:28:10-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-03T23:28:10-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-03T23:28:10-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-03T23:28:11-0300 lvl=info msg="update available" obj=updater
+t=2025-12-03T23:28:11-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-12-03T23:34:47-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-03T23:34:47-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-03T23:34:47-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-03T23:34:48-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-03T23:34:48-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-03T23:34:48-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://primulaceous-skinflintily-garret.ngrok-free.dev
+t=2025-12-03T23:34:48-0300 lvl=info msg="update available" obj=updater
+t=2025-12-03T23:38:16-0300 lvl=info msg="join connections" obj=join id=bbd6660b0e7a l=[::1]:3000 r=[2a03:2880:22ff:74::]:48694
+t=2025-12-03T23:38:16-0300 lvl=info msg="join connections" obj=join id=32109f2efffe l=[::1]:3000 r=[2a03:2880:21ff:72::]:57394
+t=2025-12-03T23:38:16-0300 lvl=info msg="join connections" obj=join id=8f4ad0446f36 l=[::1]:3000 r=[2a03:2880:12ff:4::]:48842
+t=2025-12-03T23:38:16-0300 lvl=info msg="join connections" obj=join id=62b5f6d449cd l=[::1]:3000 r=[2a03:2880:10ff:2::]:41520
+t=2025-12-04T00:18:56-0300 lvl=info msg="join connections" obj=join id=91a455e9d9cc l=[::1]:3000 r=[2a03:2880:21ff:40::]:61392
+t=2025-12-04T00:18:59-0300 lvl=info msg="join connections" obj=join id=e91add8f049d l=[::1]:3000 r=[2a03:2880:22ff:5f::]:41202
+t=2025-12-04T00:18:59-0300 lvl=info msg="join connections" obj=join id=e61dbfbf9fb3 l=[::1]:3000 r=[2a03:2880:22ff:5e::]:53780
+t=2025-12-04T01:08:32-0300 lvl=info msg="join connections" obj=join id=89ce8e6cf216 l=[::1]:3000 r=[2a03:2880:22ff:52::]:51454
+t=2025-12-04T01:08:33-0300 lvl=info msg="join connections" obj=join id=7b2ea6366320 l=[::1]:3000 r=[2a03:2880:22ff:5::]:56404
+t=2025-12-04T01:27:46-0300 lvl=info msg="join connections" obj=join id=4c51742aacd6 l=[::1]:3000 r=[2a03:2880:21ff:5::]:40268

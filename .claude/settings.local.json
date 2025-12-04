@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command \"if (Test-Path ''C:\\PITHY'') { Remove-Item -Path ''C:\\PITHY'' -Recurse -Force } ; New-Item -ItemType Directory -Path ''C:\\PITHY'' -Force | Out-Null ; Copy-Item -Path ''E:\\prueba\\*'' -Destination ''C:\\PITHY\\'' -Recurse -Force -Exclude node_modules,.next,logs ; Write-Host ''PITHY instalado en C:\\PITHY''\")",
+      "Bash(cat:*)",
+      "Bash(powershell.exe -Command \"Test-Path ''C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe''\")",
+      "Bash(\"C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe\" \"setup.iss\")",
+      "Bash(powershell.exe -Command \"Get-Process | Where-Object {$_Name -eq ''node'' -or $_Name -eq ''ollama'' -or $_Name -eq ''ngrok''} | Select-Object Name, Id | Format-Table\")",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

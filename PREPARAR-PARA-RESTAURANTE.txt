@@ -1,0 +1,242 @@
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║   📦 CÓMO LLEVAR PITHY A UN RESTAURANTE                 ║
+║   Guía para el Técnico/Instalador                       ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════
+  PASO 1: PREPARAR EN TU CASA/OFICINA
+═══════════════════════════════════════════════════════════
+
+1. Copia toda la carpeta E:\prueba a un USB o comprímela en ZIP
+
+   Opción A - USB:
+   • Conecta USB de 8GB o más
+   • Copia toda la carpeta E:\prueba al USB
+   • Ya está listo para llevar
+
+   Opción B - ZIP:
+   • Clic derecho en E:\prueba
+   • "Enviar a" > "Carpeta comprimida"
+   • Copia el archivo ZIP al USB
+
+
+═══════════════════════════════════════════════════════════
+  PASO 2: EN EL RESTAURANTE (PC del restaurante)
+═══════════════════════════════════════════════════════════
+
+REQUISITOS DE LA PC:
+  • Windows 10 u 11
+  • Mínimo 8GB RAM
+  • 10GB de espacio libre
+  • Conexión a Internet
+
+┌─────────────────────────────────────────────────────────┐
+│ INSTALACIÓN COMPLETA - PRIMERA VEZ                     │
+└─────────────────────────────────────────────────────────┘
+
+A) INSTALAR REQUISITOS (solo primera vez en esa PC):
+
+   1. Node.js:
+      • Abre navegador
+      • Ve a: https://nodejs.org/
+      • Descarga versión LTS
+      • Instala (Siguiente, Siguiente, Finalizar)
+      • Reinicia la PC
+
+   2. Ollama (Inteligencia Artificial):
+      • Ve a: https://ollama.com/download
+      • Descarga e instala
+      • Abre PowerShell como Administrador
+      • Escribe: ollama pull qwen2.5:3b
+      • Espera 10-15 minutos (descarga 2GB)
+      • Reinicia la PC
+
+   IMPORTANTE: Esto solo se hace UNA VEZ por PC
+
+B) INSTALAR PITHY:
+
+   1. Conecta el USB o descomprime el ZIP en el escritorio
+
+   2. Entra a la carpeta del proyecto
+
+   3. Doble clic en: INSTALAR-PITHY.bat
+
+   4. Espera 1-2 minutos (copia archivos y crea iconos)
+
+   5. Cuando termine, abre PowerShell como Administrador:
+      • Busca "PowerShell" en el menú Inicio
+      • Clic derecho > "Ejecutar como administrador"
+      • Escribe: cd C:\PITHY
+      • Escribe: npm install
+      • Espera 10-15 minutos
+
+C) CONFIGURAR PARA EL RESTAURANTE:
+
+   1. Abre: C:\PITHY\.env.local (con Notepad)
+
+   2. Configura las credenciales del restaurante:
+
+      WHATSAPP_TOKEN=el_token_del_restaurante
+      WHATSAPP_PHONE_NUMBER_ID=el_id_del_restaurante
+      WHATSAPP_WEBHOOK_TOKEN=token_unico_del_restaurante
+
+   3. Guarda y cierra
+
+   4. Abre: C:\PITHY\config-horarios.json
+      • Configura horarios de atención del restaurante
+      • Ejemplo: "lunes": { "inicio": "09:00", "fin": "22:00" }
+
+   5. Guarda y cierra
+
+D) PROBAR QUE FUNCIONA:
+
+   1. Doble clic en: INICIAR PITHY (en el escritorio)
+
+   2. Espera 30 segundos
+      • Verás 3 ventanas minimizadas
+
+   3. Doble clic en: PANEL ADMIN PITHY
+      • Se abre el panel en el navegador
+
+   4. Envía un mensaje de prueba al número del restaurante
+
+   5. El mensaje debe aparecer en el panel
+
+   6. El bot debe responder automáticamente
+
+   ✅ Si todo funciona, ¡instalación exitosa!
+
+E) CAPACITAR AL PERSONAL DEL RESTAURANTE:
+
+   Enséñales:
+
+   1. INICIAR (cada mañana):
+      • Doble clic en "INICIAR PITHY"
+      • Esperar 30 segundos
+      • Listo
+
+   2. VER CONVERSACIONES:
+      • Doble clic en "PANEL ADMIN PITHY"
+      • Ver todas las conversaciones
+
+   3. RESPONDER MANUALMENTE:
+      • Abrir el panel
+      • Clic en una conversación
+      • Escribir respuesta
+      • Enviar
+
+   4. CAMBIAR MODO:
+      • Si quieren que el bot responda solo: Modo 🤖
+      • Si quieren responder ellos: Modo 👤
+      • Clic en el botón de modo para cambiar
+
+   5. CERRAR (cada noche):
+      • Doble clic en "DETENER PITHY"
+      • Listo
+
+
+═══════════════════════════════════════════════════════════
+  PASO 3: SI YA INSTALASTE EN OTRO RESTAURANTE ANTES
+═══════════════════════════════════════════════════════════
+
+Si la PC YA TIENE Node.js y Ollama (porque ya instalaste antes):
+
+1. Solo ejecuta: INSTALAR-PITHY.bat
+   (Toma 1-2 minutos)
+
+2. Configura credenciales del nuevo restaurante en .env.local
+
+3. Configura horarios en config-horarios.json
+
+4. ¡Listo en 5 minutos!
+
+
+═══════════════════════════════════════════════════════════
+  📋 CHECKLIST PARA IMPRIMIR
+═══════════════════════════════════════════════════════════
+
+RESTAURANTE: ______________________________
+FECHA: ____________________________________
+
+□ PC cumple requisitos (Windows 10/11, 8GB RAM)
+□ Conexión a Internet disponible
+□ Node.js instalado (primera vez)
+□ Ollama instalado (primera vez)
+□ Modelo IA descargado: ollama pull qwen2.5:3b
+□ PC reiniciada
+□ INSTALAR-PITHY.bat ejecutado
+□ npm install completado
+□ Credenciales configuradas en .env.local:
+  □ WHATSAPP_TOKEN
+  □ WHATSAPP_PHONE_NUMBER_ID
+  □ WHATSAPP_WEBHOOK_TOKEN
+□ Horarios configurados en config-horarios.json
+□ Prueba exitosa:
+  □ PITHY inicia correctamente
+  □ Panel abre en navegador
+  □ Mensaje de prueba recibido
+  □ Bot responde automáticamente
+□ Personal capacitado:
+  □ Sabe iniciar PITHY
+  □ Sabe abrir el panel
+  □ Sabe responder manualmente
+  □ Sabe cambiar modo (auto/manual)
+  □ Sabe detener PITHY
+
+FIRMA TÉCNICO: ____________________________
+FIRMA RESTAURANTE: ________________________
+
+
+═══════════════════════════════════════════════════════════
+  🔧 PROBLEMAS COMUNES Y SOLUCIONES
+═══════════════════════════════════════════════════════════
+
+1. "npm no se reconoce"
+   → Node.js no está instalado o falta reiniciar
+   → Solución: Instalar Node.js y reiniciar PC
+
+2. "ollama no se reconoce"
+   → Ollama no está instalado
+   → Solución: Instalar Ollama y ejecutar: ollama pull qwen2.5:3b
+
+3. El bot no responde
+   → Verificar que PITHY esté iniciado (3 ventanas)
+   → Verificar credenciales en .env.local
+   → Verificar modo en el panel (debe estar en 🤖)
+
+4. No se abre el panel
+   → Esperar 30-40 segundos después de iniciar
+   → Verificar que las 3 ventanas estén abiertas
+   → Abrir manualmente: http://localhost:3000/admin
+
+5. Error al instalar dependencias (npm install)
+   → Asegurar que hay Internet
+   → Ejecutar como Administrador
+   → Si persiste, borrar C:\PITHY\node_modules y reintentar
+
+
+═══════════════════════════════════════════════════════════
+  💾 BACKUP Y MANTENIMIENTO
+═══════════════════════════════════════════════════════════
+
+Para hacer backup de las conversaciones:
+  • Copia: C:\PITHY\dev.db
+  • Guarda en USB o nube
+
+Para actualizar PITHY:
+  1. Detener PITHY
+  2. Copiar nueva versión sobre C:\PITHY
+  3. Conservar .env.local y dev.db
+  4. Reiniciar PITHY
+
+
+═══════════════════════════════════════════════════════════
+
+Creado por: Ulmer Solier
+Proyecto: Devlmer Project CL
+Chatbot: PITHY
+
+═══════════════════════════════════════════════════════════

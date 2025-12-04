@@ -1,0 +1,114 @@
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║       🤖 PITHY CHATBOT - INSTRUCCIONES RÁPIDAS            ║
+║          Devlmer Project CL                                ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+
+
+📋 ¿QUÉ ES ESTO?
+═══════════════════════════════════════════════════════════
+
+PITHY es un chatbot inteligente para WhatsApp con panel de
+administración web. Puedes responder automáticamente con IA
+o manualmente desde el panel.
+
+
+🚀 INSTALACIÓN (Primera vez)
+═══════════════════════════════════════════════════════════
+
+1. Haz clic derecho en: INSTALADOR-PORTABLE.ps1
+2. Selecciona "Ejecutar con PowerShell"
+3. Sigue las instrucciones
+4. Se crearán iconos en tu escritorio
+
+¡Listo!
+
+
+💡 USO DIARIO
+═══════════════════════════════════════════════════════════
+
+POR LA MAÑANA:
+--------------
+1. Doble click en: 🚀 INICIAR PITHY
+2. Espera 30 segundos
+3. Doble click en: 🎛️ PANEL ADMIN PITHY
+
+AL FINAL DEL DÍA:
+-----------------
+1. Doble click en: 🛑 DETENER PITHY
+2. Cierra el navegador
+3. Apaga la PC
+
+
+🎛️ PANEL DE ADMINISTRACIÓN
+═══════════════════════════════════════════════════════════
+
+URL: http://localhost:3000/admin
+
+FUNCIONES:
+- Ver todas las conversaciones en tiempo real
+- Responder manualmente a clientes
+- Activar/desactivar bot automático
+- Ver estadísticas
+
+
+🎮 ICONOS DEL ESCRITORIO
+═══════════════════════════════════════════════════════════
+
+🚀 INICIAR PITHY      → Inicia el chatbot
+🛑 DETENER PITHY      → Detiene el chatbot
+🎛️ PANEL ADMIN PITHY  → Abre el panel web
+📁 CARPETA PITHY      → Abre la carpeta
+
+
+📞 REQUISITOS
+═══════════════════════════════════════════════════════════
+
+✅ Windows 10 u 11
+✅ Node.js (descargar: https://nodejs.org/)
+✅ Ollama (descargar: https://ollama.com/download)
+✅ Conexión a Internet
+✅ 4GB RAM mínimo
+
+
+🔧 ARCHIVOS IMPORTANTES
+═══════════════════════════════════════════════════════════
+
+.env.local              → Credenciales de WhatsApp
+dev.db                  → Base de datos (conversaciones)
+config-horarios.json    → Horarios de atención
+
+
+📚 DOCUMENTACIÓN COMPLETA
+═══════════════════════════════════════════════════════════
+
+GUIA-INSTALACION-PORTABLE.md → Instalación detallada
+GUIA-PANEL-ADMIN.md           → Uso del panel admin
+COMO-USAR-EL-CHATBOT.md       → Configuración general
+
+
+🆘 AYUDA RÁPIDA
+═══════════════════════════════════════════════════════════
+
+¿No se crean los iconos?
+→ Ejecuta: crear-atajos-escritorio.ps1
+
+¿El panel no abre?
+→ Espera 40 segundos después de iniciar
+
+¿No funciona Node.js?
+→ Instala desde: https://nodejs.org/
+
+¿No funciona Ollama?
+→ Instala desde: https://ollama.com/download
+→ Ejecuta: ollama pull qwen2.5:3b
+
+
+═══════════════════════════════════════════════════════════
+
+Creado por: Ulmer Solier
+Para: Devlmer Project CL
+Versión: 1.0 - Panel de Administración Completo
+
+═══════════════════════════════════════════════════════════

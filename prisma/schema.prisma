@@ -1,0 +1,218 @@
+// Esquema avanzado de base de datos para WhatsApp Chatbot JARVIS
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Usuario de WhatsApp
+model User {
+  id            String   @id @default(uuid())
+  phoneNumber   String   @unique
+  name          String?
+  profilePicUrl String?
+  language      String   @default("es")
+  timezone      String   @default("America/Santiago")
+  isBlocked     Boolean  @default(false)
+  isVIP         Boolean  @default(false)
+
+  // Metadata
+  firstContact  DateTime @default(now())
+  lastContact   DateTime @updatedAt
+  totalMessages Int      @default(0)
+
+  // Preferencias
+  preferences   Json?
+  tags          String?  // JSON array de tags
+
+  // Relaciones
+  conversations Conversation[]
+  messages      Message[]
+  analytics     UserAnalytics[]
+
+  @@index([phoneNumber])
+  @@index([lastContact])
+}
+
+// Conversación (sesión de chat)
+model Conversation {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  status      String   @default("active") // active, closed, escalated
+  context     Json?    // Contexto de la conversación
+  sentiment   String?  // positive, neutral, negative
+  category    String?  // soporte, ventas, consulta, etc.
+
+  // Control de modo bot/manual
+  botMode     String   @default("auto") // auto, manual, hybrid
+  assignedTo  String?  // ID del agente humano asignado
+  isUnread    Boolean  @default(false) // Para notificaciones en el panel
+
+  startedAt   DateTime @default(now())
+  endedAt     DateTime?
+
+  messages    Message[]
+
+  @@index([userId])
+  @@index([status])
+  @@index([startedAt])
+  @@index([botMode])
+  @@index([isUnread])
+}
+
+// Mensaje individual
+model Message {
+  id              String       @id @default(uuid())
+  conversationId  String
+  conversation    Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  userId          String
+  user            User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Contenido
+  type            String       // text, image, audio, document, video, location, template
+  content         String       // Texto o URL del medio
+  caption         String?
+
+  // Metadata de WhatsApp
+  whatsappId      String?      @unique
+  status          String       @default("sent") // sent, delivered, read, failed
+
+  // Dirección
+  direction       String       // inbound, outbound
+  sentBy          String?      // "bot", "human", "system"
+
+  // IA y procesamiento
+  aiProcessed     Boolean      @default(false)
+  aiResponse      String?
+  intent          String?      // Intención detectada
+  entities        Json?        // Entidades extraídas
+
+  // Multimedia
+  mediaUrl        String?
+  mediaMimeType   String?
+  mediaSize       Int?
+
+  timestamp       DateTime     @default(now())
+
+  @@index([conversationId])
+  @@index([userId])
+  @@index([timestamp])
+  @@index([whatsappId])
+}
+
+// Analytics por usuario
+model UserAnalytics {
+  id                    String   @id @default(uuid())
+  userId                String
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  date                  DateTime @default(now())
+
+  // Métricas
+  messagesReceived      Int      @default(0)
+  messagesSent          Int      @default(0)
+  averageResponseTime   Float?   // en segundos
+  conversationDuration  Float?   // en minutos
+  satisfactionScore     Float?   // 1-5
+
+  // Engagement
+  commandsUsed          Json?    // {comando: count}
+  topicsDiscussed       Json?    // {topic: count}
+
+  @@index([userId])
+  @@index([date])
+}
+
+// Comandos personalizados
+model Command {
+  id          String   @id @default(uuid())
+  trigger     String   @unique  // /comando
+  name        String
+  description String
+  response    String   // Puede ser texto o un template
+  isActive    Boolean  @default(true)
+
+  // Analytics
+  usageCount  Int      @default(0)
+  lastUsed    DateTime?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([trigger])
+}
+
+// Templates de mensajes
+model MessageTemplate {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  category    String   // greeting, farewell, error, help, etc.
+  language    String   @default("es")
+  content     String
+  variables   Json?    // Variables que se pueden reemplazar
+
+  isActive    Boolean  @default(true)
+  usageCount  Int      @default(0)
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([category])
+  @@index([language])
+}
+
+// Configuración del sistema
+model SystemConfig {
+  id          String   @id @default(uuid())
+  key         String   @unique
+  value       String
+  type        String   @default("string") // string, number, boolean, json
+  description String?
+
+  updatedAt   DateTime @updatedAt
+
+  @@index([key])
+}
+
+// Webhooks y eventos
+model WebhookLog {
+  id          String   @id @default(uuid())
+  event       String   // message_received, message_sent, status_update
+  payload     Json
+  status      String   @default("pending") // pending, processed, failed
+  error       String?
+
+  processedAt DateTime?
+  createdAt   DateTime @default(now())
+
+  @@index([event])
+  @@index([status])
+  @@index([createdAt])
+}
+
+// Campañas de broadcast
+model Campaign {
+  id          String   @id @default(uuid())
+  name        String
+  message     String
+  targetUsers Json     // Criterios de selección
+
+  status      String   @default("draft") // draft, scheduled, sending, completed, cancelled
+
+  scheduledFor DateTime?
+  sentCount    Int      @default(0)
+  deliveredCount Int    @default(0)
+  readCount    Int      @default(0)
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([status])
+  @@index([scheduledFor])
+}

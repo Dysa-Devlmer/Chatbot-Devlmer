@@ -1,0 +1,156 @@
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║   📦 PITHY CHATBOT - INSTRUCCIONES DE INSTALACIÓN       ║
+║   Para Restaurantes y Locales Comerciales               ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+
+
+🎯 INSTALACIÓN SIMPLE - 3 PASOS:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  PASO 1: REQUISITOS (Solo primera vez en esta PC)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Antes de instalar PITHY, necesitas tener instalado:
+
+a) Node.js (para ejecutar el chatbot):
+   • Ve a: https://nodejs.org/
+   • Descarga versión LTS (botón verde)
+   • Instala con "Siguiente, Siguiente, Finalizar"
+   • REINICIA la computadora
+
+b) Ollama (la inteligencia artificial):
+   • Ve a: https://ollama.com/download
+   • Descarga e instala
+   • Abre PowerShell y escribe:
+     ollama pull qwen2.5:3b
+   • Espera (descarga 2GB, unos 10-15 minutos)
+   • REINICIA la computadora
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  PASO 2: INSTALAR PITHY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Doble clic en: INSTALAR-PITHY.bat
+
+El instalador hará:
+  • Copiar todos los archivos a C:\PITHY
+  • Crear 4 iconos en tu escritorio
+  • Mostrar los siguientes pasos
+
+Tiempo: 1-2 minutos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  PASO 3: CONFIGURAR DEPENDENCIAS (Solo primera vez)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Abre PowerShell como Administrador:
+   • Busca "PowerShell" en el menú Inicio
+   • Clic derecho > "Ejecutar como administrador"
+
+2. Escribe estos comandos:
+   cd C:\PITHY
+   npm install
+
+3. Espera 10-15 minutos (instalando paquetes)
+
+4. Cuando termine, configura tus credenciales:
+   • Abre: C:\PITHY\.env.local (con Notepad)
+   • Pon tus tokens de WhatsApp Business
+   • Guarda y cierra
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+✅ ¡LISTO! PITHY ESTÁ INSTALADO
+
+
+═══════════════════════════════════════════════════════════
+  🚀 CÓMO USAR PITHY (Uso Diario)
+═══════════════════════════════════════════════════════════
+
+En tu escritorio encontrarás 4 iconos:
+
+1. 🚀 INICIAR PITHY
+   • Doble clic para iniciar el chatbot
+   • Espera 30 segundos
+   • Verás 3 ventanas minimizadas (Ollama, Next.js, ngrok)
+   • ¡El chatbot ya está funcionando!
+
+2. 🛑 DETENER PITHY
+   • Doble clic para detener todo
+   • Cierra todas las ventanas automáticamente
+
+3. 🎛️ PANEL ADMIN PITHY
+   • Doble clic para abrir el panel web
+   • Desde aquí puedes:
+     - Ver todas las conversaciones
+     - Responder manualmente
+     - Cambiar entre modo automático y manual
+     - Ver estadísticas
+
+4. 📁 CARPETA PITHY
+   • Abre la carpeta C:\PITHY
+   • Para ver archivos y configuración
+
+
+═══════════════════════════════════════════════════════════
+  📱 PANEL DE ADMINISTRACIÓN
+═══════════════════════════════════════════════════════════
+
+El panel te permite controlar el chatbot:
+
+MODOS DE RESPUESTA:
+  • 🤖 AUTOMÁTICO: El bot responde solo con IA
+  • 👤 MANUAL: Tú respondes desde el panel
+  • 🔄 HÍBRIDO: Mezcla de ambos
+
+PARA CAMBIAR MODO:
+  1. Abre el panel (PANEL ADMIN PITHY)
+  2. Haz clic en una conversación
+  3. Haz clic en el botón de modo (🤖 o 👤)
+  4. ¡Listo!
+
+
+═══════════════════════════════════════════════════════════
+  ❓ PROBLEMAS COMUNES
+═══════════════════════════════════════════════════════════
+
+1. "No se reconoce 'node'"
+   → Instala Node.js
+   → Reinicia la computadora
+
+2. "No se reconoce 'ollama'"
+   → Instala Ollama
+   → Ejecuta: ollama pull qwen2.5:3b
+   → Reinicia la computadora
+
+3. El bot no responde
+   → Verifica que PITHY esté iniciado (3 ventanas minimizadas)
+   → Abre el panel y verifica el modo
+   → Si está en manual, cambia a automático
+
+4. No se abre el panel
+   → Espera 30-40 segundos después de iniciar
+   → Abre manualmente: http://localhost:3000/admin
+
+
+═══════════════════════════════════════════════════════════
+  📞 SOPORTE
+═══════════════════════════════════════════════════════════
+
+Para más ayuda, revisa estos archivos en C:\PITHY:
+  • GUIA-PANEL-ADMIN.md
+  • COMO-USAR-EL-CHATBOT.md
+  • INSTALACION-COMPLETA-LOCAL.md
+
+
+═══════════════════════════════════════════════════════════
+
+Creado por: Ulmer Solier
+Proyecto: Devlmer Project CL
+Chatbot: PITHY
+Versión: 1.0
+
+═══════════════════════════════════════════════════════════
