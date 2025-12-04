@@ -9634,3 +9634,249 @@ Unknown argument `sentBy`. Available options are marked with ?.
     at async POST (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__bd5fcb7a._.js:1005:17) {
   clientVersion: '6.19.0'
 }
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\.next\dev\server\chunks\node_modules_next_0142b613._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+Error fetching stats: Error [PrismaClientValidationError]: 
+Invalid `prisma.conversation.count()` invocation in
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:79:33
+
+  76         isUnread: true
+  77     }
+  78 }),
+→ 79 prisma.conversation.count({
+       select: {
+         _count: {
+           select: {
+             _all: true
+           }
+         }
+       },
+       where: {
+         botMode: "auto",
+         ~~~~~~~
+     ?   AND?: ConversationWhereInput | ConversationWhereInput[],
+     ?   OR?: ConversationWhereInput[],
+     ?   NOT?: ConversationWhereInput | ConversationWhereInput[],
+     ?   id?: StringFilter | String,
+     ?   userId?: StringFilter | String,
+     ?   status?: StringFilter | String,
+     ?   context?: JsonNullableFilter,
+     ?   sentiment?: StringNullableFilter | String | Null,
+     ?   category?: StringNullableFilter | String | Null,
+     ?   startedAt?: DateTimeFilter | DateTime,
+     ?   endedAt?: DateTimeNullableFilter | DateTime | Null,
+     ?   user?: UserScalarRelationFilter | UserWhereInput,
+     ?   messages?: MessageListRelationFilter
+       }
+     })
+
+Unknown argument `botMode`. Available options are marked with ?.
+    at <unknown> (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:79:33)
+    at async GET (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:65:139) {
+  clientVersion: '6.19.0'
+}
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\.next\dev\server\chunks\node_modules_next_0142b613._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+Error fetching stats: Error [PrismaClientValidationError]: 
+Invalid `prisma.conversation.count()` invocation in
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:74:33
+
+  71 }),
+  72 prisma.user.count(),
+  73 prisma.message.count(),
+→ 74 prisma.conversation.count({
+       select: {
+         _count: {
+           select: {
+             _all: true
+           }
+         }
+       },
+       where: {
+         isUnread: true,
+         ~~~~~~~~
+     ?   AND?: ConversationWhereInput | ConversationWhereInput[],
+     ?   OR?: ConversationWhereInput[],
+     ?   NOT?: ConversationWhereInput | ConversationWhereInput[],
+     ?   id?: StringFilter | String,
+     ?   userId?: StringFilter | String,
+     ?   status?: StringFilter | String,
+     ?   context?: JsonNullableFilter,
+     ?   sentiment?: StringNullableFilter | String | Null,
+     ?   category?: StringNullableFilter | String | Null,
+     ?   startedAt?: DateTimeFilter | DateTime,
+     ?   endedAt?: DateTimeNullableFilter | DateTime | Null,
+     ?   user?: UserScalarRelationFilter | UserWhereInput,
+     ?   messages?: MessageListRelationFilter
+       }
+     })
+
+Unknown argument `isUnread`. Available options are marked with ?.
+    at <unknown> (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:74:33)
+    at async GET (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:65:139) {
+  clientVersion: '6.19.0'
+}
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\.next\dev\server\chunks\node_modules_next_0142b613._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+Error fetching stats: Error [PrismaClientValidationError]: 
+Invalid `prisma.conversation.count()` invocation in
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:74:33
+
+  71 }),
+  72 prisma.user.count(),
+  73 prisma.message.count(),
+→ 74 prisma.conversation.count({
+       select: {
+         _count: {
+           select: {
+             _all: true
+           }
+         }
+       },
+       where: {
+         isUnread: true,
+         ~~~~~~~~
+     ?   AND?: ConversationWhereInput | ConversationWhereInput[],
+     ?   OR?: ConversationWhereInput[],
+     ?   NOT?: ConversationWhereInput | ConversationWhereInput[],
+     ?   id?: StringFilter | String,
+     ?   userId?: StringFilter | String,
+     ?   status?: StringFilter | String,
+     ?   context?: JsonNullableFilter,
+     ?   sentiment?: StringNullableFilter | String | Null,
+     ?   category?: StringNullableFilter | String | Null,
+     ?   startedAt?: DateTimeFilter | DateTime,
+     ?   endedAt?: DateTimeNullableFilter | DateTime | Null,
+     ?   user?: UserScalarRelationFilter | UserWhereInput,
+     ?   messages?: MessageListRelationFilter
+       }
+     })
+
+Unknown argument `isUnread`. Available options are marked with ?.
+    at <unknown> (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:74:33)
+    at async GET (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:65:139) {
+  clientVersion: '6.19.0'
+}
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\.next\dev\server\chunks\node_modules_next_0142b613._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+Error fetching stats: Error [PrismaClientValidationError]: 
+Invalid `prisma.conversation.count()` invocation in
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:74:33
+
+  71 }),
+  72 prisma.user.count(),
+  73 prisma.message.count(),
+→ 74 prisma.conversation.count({
+       select: {
+         _count: {
+           select: {
+             _all: true
+           }
+         }
+       },
+       where: {
+         isUnread: true,
+         ~~~~~~~~
+     ?   AND?: ConversationWhereInput | ConversationWhereInput[],
+     ?   OR?: ConversationWhereInput[],
+     ?   NOT?: ConversationWhereInput | ConversationWhereInput[],
+     ?   id?: StringFilter | String,
+     ?   userId?: StringFilter | String,
+     ?   status?: StringFilter | String,
+     ?   context?: JsonNullableFilter,
+     ?   sentiment?: StringNullableFilter | String | Null,
+     ?   category?: StringNullableFilter | String | Null,
+     ?   startedAt?: DateTimeFilter | DateTime,
+     ?   endedAt?: DateTimeNullableFilter | DateTime | Null,
+     ?   user?: UserScalarRelationFilter | UserWhereInput,
+     ?   messages?: MessageListRelationFilter
+       }
+     })
+
+Unknown argument `isUnread`. Available options are marked with ?.
+    at <unknown> (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:74:33)
+    at async GET (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:65:139) {
+  clientVersion: '6.19.0'
+}
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\.next\dev\server\chunks\node_modules_next_0142b613._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\prueba\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+Error fetching stats: Error [PrismaClientValidationError]: 
+Invalid `prisma.conversation.count()` invocation in
+E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:74:33
+
+  71 }),
+  72 prisma.user.count(),
+  73 prisma.message.count(),
+→ 74 prisma.conversation.count({
+       select: {
+         _count: {
+           select: {
+             _all: true
+           }
+         }
+       },
+       where: {
+         isUnread: true,
+         ~~~~~~~~
+     ?   AND?: ConversationWhereInput | ConversationWhereInput[],
+     ?   OR?: ConversationWhereInput[],
+     ?   NOT?: ConversationWhereInput | ConversationWhereInput[],
+     ?   id?: StringFilter | String,
+     ?   userId?: StringFilter | String,
+     ?   status?: StringFilter | String,
+     ?   context?: JsonNullableFilter,
+     ?   sentiment?: StringNullableFilter | String | Null,
+     ?   category?: StringNullableFilter | String | Null,
+     ?   startedAt?: DateTimeFilter | DateTime,
+     ?   endedAt?: DateTimeNullableFilter | DateTime | Null,
+     ?   user?: UserScalarRelationFilter | UserWhereInput,
+     ?   messages?: MessageListRelationFilter
+       }
+     })
+
+Unknown argument `isUnread`. Available options are marked with ?.
+    at <unknown> (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:74:33)
+    at async GET (E:\prueba\.next\dev\server\chunks\[root-of-the-server]__010d1dbf._.js:65:139) {
+  clientVersion: '6.19.0'
+}

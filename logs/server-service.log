@@ -3842,3 +3842,10 @@ E:\prueba\.next\dev\server\chunks\[root-of-the-server]__bd5fcb7a._.js:190:172
 Unknown argument `sentBy`. Available options are marked with ?.
 prisma:query UPDATE `main`.`WebhookLog` SET `status` = ?, `error` = ?, `processedAt` = ? WHERE (`main`.`WebhookLog`.`id` = ? AND 1=1) RETURNING `id` AS `id`, `event` AS `event`, `payload` AS `payload`, `status` AS `status`, `error` AS `error`, `processedAt` AS `processedAt`, `createdAt` AS `createdAt`
  POST /api/whatsapp/webhook 200 in 99ms (compile: 2ms, render: 97ms)
+ GET /admin 200 in 2.5s (compile: 2.3s, render: 112ms)
+ GET /api/admin/stats 500 in 114ms (compile: 86ms, render: 28ms)
+ GET /api/admin/stats 500 in 16ms (compile: 3ms, render: 13ms)
+ GET /api/admin/stats 500 in 12ms (compile: 2ms, render: 10ms)
+ GET /api/admin/stats 500 in 12ms (compile: 2ms, render: 10ms)
+ ✓ Compiled in 88ms
+ GET /api/admin/stats 500 in 11ms (compile: 1614µs, render: 9ms)
