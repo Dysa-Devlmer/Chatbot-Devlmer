@@ -33,7 +33,7 @@ Write-Host "Obteniendo URL de ngrok..." -ForegroundColor Cyan
 Start-Sleep -Seconds 5
 
 try {
-    $response = Invoke-RestMethod -Uri "http://localhost:4040/api/tunnels"
+    $response = Invoke-RestMethod -Uri "http://localhost:4847/api/tunnels"
     $publicUrl = $response.tunnels[0].public_url
 
     Write-Host ""

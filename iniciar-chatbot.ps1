@@ -27,7 +27,7 @@ Write-Host "   ⏳ Esperando a que el servidor se inicie..." -ForegroundColor Gr
 Start-Sleep -Seconds 10
 
 Write-Host "3️⃣  Iniciando túnel ngrok..." -ForegroundColor Yellow
-Start-Process powershell -ArgumentList "-NoExit", "-Command", "Write-Host '🌐 Ngrok Tunnel' -ForegroundColor Green; .\ngrok.exe http 3000" -WindowStyle Normal
+Start-Process powershell -ArgumentList "-NoExit", "-Command", "Write-Host '🌐 Ngrok Tunnel' -ForegroundColor Green; .\ngrok.exe http 7847" -WindowStyle Normal
 
 Write-Host "   ⏳ Esperando a que ngrok se conecte..." -ForegroundColor Gray
 Start-Sleep -Seconds 5
@@ -38,7 +38,7 @@ Write-Host ""
 
 # Obtener y mostrar la URL de ngrok
 try {
-    $response = Invoke-RestMethod -Uri "http://localhost:4040/api/tunnels"
+    $response = Invoke-RestMethod -Uri "http://localhost:4847/api/tunnels"
     $publicUrl = $response.tunnels[0].public_url
 
     Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor Cyan
