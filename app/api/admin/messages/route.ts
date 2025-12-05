@@ -53,7 +53,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // 1. Enviar mensaje por WhatsApp API
+    // 1. Limpiar el número de teléfono (quitar + y espacios)
+    const cleanPhoneNumber = phoneNumber.replace(/[+\s-]/g, '');
+
+    // 2. Enviar mensaje por WhatsApp API
     const whatsappResponse = await fetch(
       `https://graph.facebook.com/v21.0/${process.env.WHATSAPP_PHONE_NUMBER_ID}/messages`,
       {
@@ -64,7 +67,7 @@ export async function POST(request: NextRequest) {
         },
         body: JSON.stringify({
           messaging_product: 'whatsapp',
-          to: phoneNumber,
+          to: cleanPhoneNumber,
           type: 'text',
           text: { body: content },
         }),
