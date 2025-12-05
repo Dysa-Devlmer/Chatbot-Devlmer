@@ -203,8 +203,11 @@ INSTRUCCIONES:
 
       console.log(`✅ Respuesta generada (${responseText.length} caracteres)`);
 
+      // Agregar firma automática del bot
+      const responseWithSignature = `${responseText}\n\n🤖 Asistente automático PITHY`;
+
       return {
-        response: responseText,
+        response: responseWithSignature,
         intent: analysis.intent,
         entities: analysis.entities,
         sentiment: analysis.sentiment,

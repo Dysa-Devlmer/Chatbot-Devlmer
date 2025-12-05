@@ -67,6 +67,12 @@ export async function PATCH(request: NextRequest) {
       );
     }
 
+    // Obtener conversación actual antes de actualizar
+    const currentConversation = await prisma.conversation.findUnique({
+      where: { id: conversationId },
+      include: { user: true },
+    });
+
     const updateData: any = {};
 
     if (botMode !== undefined) updateData.botMode = botMode;
@@ -85,6 +91,49 @@ export async function PATCH(request: NextRequest) {
         },
       },
     });
+
+    // Si cambió de auto a manual, enviar mensaje de transición
+    if (currentConversation && botMode === 'manual' && currentConversation.botMode === 'auto') {
+      const transitionMessage = `Un momento, te estoy conectando con un asesor...\n\n⏳ En breve te atenderá una persona real`;
+
+      // Enviar mensaje por WhatsApp
+      try {
+        const phoneNumber = currentConversation.user.phoneNumber.replace(/[+\s-]/g, '');
+
+        await fetch(
+          `https://graph.facebook.com/v21.0/${process.env.WHATSAPP_PHONE_NUMBER_ID}/messages`,
+          {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${process.env.WHATSAPP_TOKEN}`,
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              messaging_product: 'whatsapp',
+              to: phoneNumber,
+              type: 'text',
+              text: { body: transitionMessage },
+            }),
+          }
+        );
+
+        // Guardar mensaje en BD
+        await prisma.message.create({
+          data: {
+            conversationId,
+            userId: currentConversation.userId,
+            type: 'text',
+            content: transitionMessage,
+            direction: 'outbound',
+            sentBy: 'system',
+          },
+        });
+
+        console.log('📨 Mensaje de transición enviado al cambiar a modo manual');
+      } catch (error) {
+        console.error('Error enviando mensaje de transición:', error);
+      }
+    }
 
     return NextResponse.json({ conversation });
   } catch (error) {

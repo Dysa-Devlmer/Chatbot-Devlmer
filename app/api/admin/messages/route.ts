@@ -56,7 +56,10 @@ export async function POST(request: NextRequest) {
     // 1. Limpiar el número de teléfono (quitar + y espacios)
     const cleanPhoneNumber = phoneNumber.replace(/[+\s-]/g, '');
 
-    // 2. Enviar mensaje por WhatsApp API
+    // 2. Agregar firma a mensaje manual
+    const messageWithSignature = `${content}\n\n👤 Atención personalizada`;
+
+    // 3. Enviar mensaje por WhatsApp API
     const whatsappResponse = await fetch(
       `https://graph.facebook.com/v21.0/${process.env.WHATSAPP_PHONE_NUMBER_ID}/messages`,
       {
@@ -69,7 +72,7 @@ export async function POST(request: NextRequest) {
           messaging_product: 'whatsapp',
           to: cleanPhoneNumber,
           type: 'text',
-          text: { body: content },
+          text: { body: messageWithSignature },
         }),
       }
     );
@@ -97,13 +100,13 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // 3. Guardar mensaje en la base de datos
+    // 4. Guardar mensaje en la base de datos (con firma)
     const message = await prisma.message.create({
       data: {
         conversationId,
         userId: conversation.userId,
         type: 'text',
-        content,
+        content: messageWithSignature,
         direction: 'outbound',
         sentBy: 'human',
         whatsappId: whatsappData.messages?.[0]?.id,
