@@ -576,3 +576,260 @@ t=2025-12-04T00:18:59-0300 lvl=info msg="join connections" obj=join id=e61dbfbf9
 t=2025-12-04T01:08:32-0300 lvl=info msg="join connections" obj=join id=89ce8e6cf216 l=[::1]:3000 r=[2a03:2880:22ff:52::]:51454
 t=2025-12-04T01:08:33-0300 lvl=info msg="join connections" obj=join id=7b2ea6366320 l=[::1]:3000 r=[2a03:2880:22ff:5::]:56404
 t=2025-12-04T01:27:46-0300 lvl=info msg="join connections" obj=join id=4c51742aacd6 l=[::1]:3000 r=[2a03:2880:21ff:5::]:40268
+t=2025-12-04T03:06:13-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-12-04T03:06:13-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-12-04T03:06:13-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=eb7a176cb87e err="reconnecting session closed"
+t=2025-12-04T03:06:13-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T03:06:13-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=d472469ff3d8cd4aea2f9587823e12a7
+t=2025-12-04T03:06:13-0300 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2025-12-04T23:14:37-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:14:37-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:14:37-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:14:37-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:14:37-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:14:37-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:37-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=470151dba70a err="reconnecting session closed"
+t=2025-12-04T23:14:37-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:14:37-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00058ce50}} restart:false}"
+t=2025-12-04T23:14:37-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:37-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:14:37-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:38-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:14:38-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:14:38-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:14:38-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:14:38-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:14:38-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:38-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=aa265a68d672 err="reconnecting session closed"
+t=2025-12-04T23:14:38-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:14:38-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc000592010}} restart:false}"
+t=2025-12-04T23:14:38-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:38-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:14:38-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:40-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:14:40-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:14:40-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:14:40-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:14:40-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:14:40-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:40-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=4091c89dd754 err="reconnecting session closed"
+t=2025-12-04T23:14:40-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:14:40-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00004c7f0}} restart:false}"
+t=2025-12-04T23:14:40-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:40-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:14:40-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:45-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:14:45-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:14:45-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:14:45-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:14:45-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:14:45-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:45-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=c08bf4609fc2 err="reconnecting session closed"
+t=2025-12-04T23:14:45-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:14:45-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00004ce40}} restart:false}"
+t=2025-12-04T23:14:45-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:45-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:14:45-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:53-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:14:53-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:14:53-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:14:53-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:14:53-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:14:54-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:54-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=521e08c72f13 err="reconnecting session closed"
+t=2025-12-04T23:14:54-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:14:54-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc000680160}} restart:false}"
+t=2025-12-04T23:14:54-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:14:54-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:14:54-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:15:10-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:15:10-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:15:10-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:15:10-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:15:10-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:15:10-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:15:10-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=4c3c2b5afe5a err="reconnecting session closed"
+t=2025-12-04T23:15:10-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:15:10-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc000398010}} restart:false}"
+t=2025-12-04T23:15:10-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:15:10-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:15:10-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:15:42-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:15:42-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:15:42-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:15:42-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:15:42-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:15:42-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:15:42-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=eaefed2acf57 err="reconnecting session closed"
+t=2025-12-04T23:15:42-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:15:42-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00004c960}} restart:false}"
+t=2025-12-04T23:15:42-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:15:42-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:15:42-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:16:47-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:16:47-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:16:47-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:16:47-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:16:47-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:16:47-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:16:47-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=20c1d2cb9086 err="reconnecting session closed"
+t=2025-12-04T23:16:47-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:16:47-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00050e030}} restart:false}"
+t=2025-12-04T23:16:47-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:16:47-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:16:47-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:18:55-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:18:55-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:18:55-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:18:55-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:18:55-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:18:55-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:18:55-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=f28955d623bf err="reconnecting session closed"
+t=2025-12-04T23:18:55-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:18:55-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00004c690}} restart:false}"
+t=2025-12-04T23:18:55-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:18:55-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:18:55-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:23:12-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:23:12-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:23:12-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:23:12-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:23:12-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:23:12-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:23:12-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=ea44059bad2b err="reconnecting session closed"
+t=2025-12-04T23:23:12-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:23:12-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00030d690}} restart:false}"
+t=2025-12-04T23:23:12-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:23:12-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:23:12-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:27:28-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:27:28-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:27:28-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:27:28-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:27:28-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:27:28-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:27:28-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=a2de0de7e71b err="reconnecting session closed"
+t=2025-12-04T23:27:28-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:27:28-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc000300810}} restart:false}"
+t=2025-12-04T23:27:28-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:27:28-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:27:28-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:31:45-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:31:45-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:31:45-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:31:45-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:31:45-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:31:45-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:31:45-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=da88f632e543 err="reconnecting session closed"
+t=2025-12-04T23:31:45-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:31:45-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00004c9e0}} restart:false}"
+t=2025-12-04T23:31:45-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:31:45-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:31:45-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:36:01-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:36:01-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:36:01-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:36:01-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:36:01-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:36:01-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:36:01-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=c7a689f9ef74 err="reconnecting session closed"
+t=2025-12-04T23:36:01-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:36:01-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc000186550}} restart:false}"
+t=2025-12-04T23:36:01-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:36:01-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:36:01-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:40:17-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:40:17-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:40:18-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:40:18-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:40:18-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:40:18-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:40:18-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=fc4017b6080c err="reconnecting session closed"
+t=2025-12-04T23:40:18-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:40:18-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00058a390}} restart:false}"
+t=2025-12-04T23:40:18-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:40:18-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:40:18-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:44:34-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:44:34-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:44:34-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:44:34-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:44:34-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:44:34-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:44:34-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=cfed300a3e5a err="reconnecting session closed"
+t=2025-12-04T23:44:34-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:44:34-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc0005fa9c0}} restart:false}"
+t=2025-12-04T23:44:34-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:44:34-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:44:34-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:48:50-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:48:51-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:48:51-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:48:51-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:48:51-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:48:51-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:48:51-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=0bc3bfe789f1 err="reconnecting session closed"
+t=2025-12-04T23:48:51-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:48:51-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc0004af2c0}} restart:false}"
+t=2025-12-04T23:48:51-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:48:51-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:48:51-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:53:07-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:53:07-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:53:07-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:53:07-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:53:07-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:53:07-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:53:07-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=dc27a03cb348 err="reconnecting session closed"
+t=2025-12-04T23:53:07-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:53:07-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc0006862d0}} restart:false}"
+t=2025-12-04T23:53:07-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:53:07-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-04T23:53:07-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:57:23-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-04T23:57:23-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-04T23:57:24-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-04T23:57:24-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-04T23:57:24-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-04T23:57:24-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:57:24-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=304330fa41ba err="reconnecting session closed"
+t=2025-12-04T23:57:24-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-04T23:57:24-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc00060c8e0}} restart:false}"
+t=2025-12-04T23:57:24-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-04T23:57:24-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-05T00:01:40-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-05T00:01:40-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-05T00:01:40-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-05T00:01:40-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-05T00:01:40-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-05T00:01:40-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-05T00:01:40-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=0010424d8ac9 err="reconnecting session closed"
+t=2025-12-05T00:01:40-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-05T00:01:40-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc000614990}} restart:false}"
+t=2025-12-05T00:01:40-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-05T00:01:40-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-05T00:01:40-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-05T00:05:56-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-05T00:05:57-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-05T00:05:57-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-05T00:05:57-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-05T00:05:57-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-05T00:05:57-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-05T00:05:57-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=cf2ce40ad468 err="reconnecting session closed"
+t=2025-12-05T00:05:57-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-05T00:05:57-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc000186d70}} restart:false}"
+t=2025-12-05T00:05:57-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-05T00:05:57-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-05T00:05:57-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-05T00:10:13-0300 lvl=info msg="open config file" path=E:\\prueba\\ngrok.yml err=nil
+t=2025-12-05T00:10:13-0300 lvl=info msg="FIPS 140 mode" enabled=false
+t=2025-12-05T00:10:13-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-12-05T00:10:13-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-12-05T00:10:13-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-12-05T00:10:13-0300 lvl=eror msg="session closing" obj=tunnels.session err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-05T00:10:13-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=10b2f4560d37 err="reconnecting session closed"
+t=2025-12-05T00:10:13-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-12-05T00:10:13-0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Inner:{Inner:0xc0004bf200}} restart:false}"
+t=2025-12-05T00:10:13-0300 lvl=eror msg="terminating with error" obj=app err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
+t=2025-12-05T00:10:13-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+t=2025-12-05T00:10:13-0300 lvl=crit msg="command failed" err="failed to start tunnel: The endpoint 'https://primulaceous-skinflintily-garret.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"

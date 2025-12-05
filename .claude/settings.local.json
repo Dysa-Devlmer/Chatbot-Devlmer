@@ -1,14 +1,25 @@
 {
   "permissions": {
     "allow": [
-      "Bash(powershell.exe -ExecutionPolicy Bypass -Command \"if (Test-Path ''C:\\PITHY'') { Remove-Item -Path ''C:\\PITHY'' -Recurse -Force } ; New-Item -ItemType Directory -Path ''C:\\PITHY'' -Force | Out-Null ; Copy-Item -Path ''E:\\prueba\\*'' -Destination ''C:\\PITHY\\'' -Recurse -Force -Exclude node_modules,.next,logs ; Write-Host ''PITHY instalado en C:\\PITHY''\")",
-      "Bash(cat:*)",
-      "Bash(powershell.exe -Command \"Test-Path ''C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe''\")",
-      "Bash(\"C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe\" \"setup.iss\")",
-      "Bash(powershell.exe -Command \"Get-Process | Where-Object {$_Name -eq ''node'' -or $_Name -eq ''ollama'' -or $_Name -eq ''ngrok''} | Select-Object Name, Id | Format-Table\")",
-      "Bash(git add:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nInstalador profesional PITHY v1.0 completado\n\nCARACTERÍSTICAS PRINCIPALES:\n- Instalador .exe profesional con Inno Setup\n- Interfaz gráfica moderna con wizard\n- Licencia comercial en español\n- Imágenes personalizadas (gradiente azul-morado)\n- Icono profesional favicon.ico\n- Solo 1 icono en escritorio (Panel Admin)\n- Menú Inicio completo con todas las opciones\n- Instalación automática de dependencias\n\nPANEL ADMIN:\n- Dashboard con estadísticas en tiempo real\n- Sistema de conversaciones con modo bot/manual\n- Interfaz para responder mensajes manualmente\n- Toggle automático/manual por conversación\n- Corrección de error de hidratación React\n\nINSTALADOR:\n- Archivo: PITHY-Installer-v1.0.exe (8.3 MB)\n- Instala automáticamente: Node.js, Ollama, modelo IA, npm packages\n- Crea iconos en escritorio y menú Inicio\n- Desinstalador integrado\n- Compresión LZMA profesional\n\nDOCUMENTACIÓN CREADA:\n- COMPILAR-INSTALADOR.md\n- README-INSTALADOR-PROFESIONAL.md\n- COMO-CREAR-IMAGENES-PROFESIONALES.md\n- CAMBIOS-INSTALADOR-V1.0.txt\n- INSTALADOR-LISTO.txt\n- LICENSE.txt\n\n🤖 Generated with Claude Code\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git commit:*)"
+      "Bash(powershell.exe -Command \"Restart-Service JARVIS-Ngrok\")",
+      "Bash(start powershell -NoExit -Command \"ngrok http 3000\")",
+      "Bash(timeout /t 5 /nobreak)",
+      "Bash(nul)",
+      "Bash(powershell.exe -Command \"try { $response = Invoke-WebRequest -Uri ''http://localhost:4040/api/tunnels'' -UseBasicParsing; $tunnels = $response.Content | ConvertFrom-Json; $publicUrl = $tunnels.tunnels | Where-Object { $_proto -eq ''https'' } | Select-Object -ExpandProperty public_url -First 1; Write-Host \"\"URL del Webhook: $publicUrl/api/whatsapp/webhook\"\" } catch { Write-Host ''Error obteniendo URL de ngrok'' }\")",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command \".\\ngrok.exe http 3000 --log=stdout > logs\\ngrok-output.log 2>&1 &\")",
+      "Bash(powershell.exe -Command \"Start-Sleep -Seconds 5; try { $response = Invoke-RestMethod -Uri ''http://localhost:4040/api/tunnels''; $publicUrl = $response.tunnels | Where-Object { $_proto -eq ''https'' } | Select-Object -ExpandProperty public_url -First 1; if (-not $publicUrl) { $publicUrl = $response.tunnels[0].public_url }; Write-Host \"\"Webhook URL: $publicUrl/api/whatsapp/webhook\"\"; Write-Host \"\"Token: mi_token_secreto_123\"\" } catch { Write-Host \"\"Error: $_\" }\")",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \"E:\\prueba\\get-url.ps1\")",
+      "Bash(start \"\" \".\\ngrok.exe\" http 3000)",
+      "Bash(powershell.exe -Command \"Start-Sleep -Seconds 5; Invoke-RestMethod -Uri ''http://localhost:4040/api/tunnels'' | ConvertTo-Json\")",
+      "Bash(powershell.exe -Command \"netstat -ano | findstr :3000\")",
+      "Bash(dir:*)",
+      "Bash(powershell.exe -Command \"Start-Process -FilePath ''.\\ngrok.exe'' -ArgumentList ''http'',''3000'' -WindowStyle Hidden\")",
+      "Bash(powershell.exe:*)",
+      "Bash(start cmd /k \"cd /d E:\\prueba && ngrok.exe http 3000\")",
+      "Bash(start http://localhost:3000/admin)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

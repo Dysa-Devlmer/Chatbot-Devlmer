@@ -3849,3 +3849,67 @@ prisma:query UPDATE `main`.`WebhookLog` SET `status` = ?, `error` = ?, `processe
  GET /api/admin/stats 500 in 12ms (compile: 2ms, render: 10ms)
  ✓ Compiled in 88ms
  GET /api/admin/stats 500 in 11ms (compile: 1614µs, render: 9ms)
+�Desea terminar el trabajo por lotes (S/N)? [?25h
+
+> prueba@0.1.0 dev
+> next dev
+
+   ▲ Next.js 16.0.3 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://192.168.1.144:3000
+   - Environments: .env.local, .env
+   - Experiments (use with caution):
+     ? turbo (invalid experimental key)
+
+ ✓ Starting...
+ ✓ Ready in 3s
+ GET /admin 200 in 2.6s (compile: 2.5s, render: 118ms)
+ GET /api/admin/stats 200 in 462ms (compile: 222ms, render: 240ms)
+ GET /admin/inbox?mode=manual 200 in 350ms (compile: 332ms, render: 19ms)
+ GET /api/admin/conversations?status=active&botMode=manual 200 in 77ms (compile: 68ms, render: 9ms)
+ GET /api/admin/conversations?status=active&botMode=manual 200 in 7ms (compile: 2ms, render: 5ms)
+ GET /api/admin/stats 200 in 9ms (compile: 2ms, render: 7ms)
+ GET /api/admin/stats 200 in 9ms (compile: 3ms, render: 7ms)
+ GET /admin/inbox 200 in 16ms (compile: 3ms, render: 13ms)
+ GET /api/admin/conversations?status=active 200 in 19ms (compile: 4ms, render: 15ms)
+ GET /api/admin/conversations?status=active 200 in 6ms (compile: 1890µs, render: 4ms)
+ GET /api/admin/messages?conversationId=faa407d9-633c-4ee0-bcd2-f07eac5eb003 200 in 89ms (compile: 80ms, render: 9ms)
+ GET /api/admin/messages?conversationId=cd32ed36-0418-4b1c-b97a-feecdbb3a7f9 200 in 7ms (compile: 1726µs, render: 6ms)
+ GET /api/admin/messages?conversationId=96a8d251-c450-4bab-bb4c-9f79be12fc93 200 in 7ms (compile: 1688µs, render: 5ms)
+ GET /api/admin/messages?conversationId=a294c9a7-d125-4dbc-980f-d83d96a2bb60 200 in 6ms (compile: 1689µs, render: 5ms)
+ GET /api/admin/messages?conversationId=faa407d9-633c-4ee0-bcd2-f07eac5eb003 200 in 6ms (compile: 2ms, render: 4ms)
+ GET /api/admin/conversations?status=active 200 in 6ms (compile: 3ms, render: 4ms)
+ GET /api/admin/stats 200 in 38ms (compile: 1855µs, render: 36ms)
+ GET /api/admin/stats 200 in 8ms (compile: 1991µs, render: 6ms)
+ GET /admin/inbox?unread=true 200 in 14ms (compile: 1946µs, render: 12ms)
+ GET /api/admin/conversations?status=active&unreadOnly=true 200 in 7ms (compile: 1806µs, render: 5ms)
+ GET /api/admin/conversations?status=active&unreadOnly=true 200 in 7ms (compile: 1489µs, render: 5ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1692µs, render: 6ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1334µs, render: 5ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1471µs, render: 6ms)
+ GET /api/admin/stats 200 in 6ms (compile: 1350µs, render: 5ms)
+ GET /api/admin/stats 200 in 9ms (compile: 1581µs, render: 7ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1465µs, render: 5ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1650µs, render: 5ms)
+ GET /api/admin/stats 200 in 16ms (compile: 1504µs, render: 14ms)
+ GET /api/admin/stats 200 in 8ms (compile: 1882µs, render: 6ms)
+ GET /api/admin/stats 200 in 8ms (compile: 1617µs, render: 6ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1470µs, render: 6ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1924µs, render: 5ms)
+ GET /api/admin/stats 200 in 7ms (compile: 2ms, render: 5ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1383µs, render: 6ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1478µs, render: 5ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1538µs, render: 6ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1420µs, render: 6ms)
+ GET /api/admin/stats 200 in 9ms (compile: 2ms, render: 7ms)
+ GET /api/admin/stats 200 in 10ms (compile: 2ms, render: 7ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1764µs, render: 5ms)
+ GET /api/admin/stats 200 in 8ms (compile: 1600µs, render: 6ms)
+ GET /api/admin/stats 200 in 8ms (compile: 1682µs, render: 6ms)
+ GET /api/admin/stats 200 in 8ms (compile: 2ms, render: 5ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1552µs, render: 6ms)
+ GET /api/admin/stats 200 in 14ms (compile: 1621µs, render: 13ms)
+ GET /api/admin/stats 200 in 8ms (compile: 3ms, render: 6ms)
+ GET /api/admin/stats 200 in 9ms (compile: 2ms, render: 7ms)
+ GET /api/admin/stats 200 in 8ms (compile: 1720µs, render: 6ms)
+ GET /api/admin/stats 200 in 7ms (compile: 1857µs, render: 5ms)
