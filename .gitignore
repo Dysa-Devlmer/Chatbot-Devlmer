@@ -43,3 +43,17 @@ next-env.d.ts
 .vercel
 
 /src/generated/prisma
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.db-journal
+
+# Temporary files
+nul
+
+# Claude settings (local only)
+.claude/settings.local.json

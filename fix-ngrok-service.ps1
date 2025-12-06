@@ -20,7 +20,7 @@ Start-Sleep -Seconds 2
 # Reconfigurar para usar el archivo ngrok.yml
 Write-Host "Reconfigurando JARVIS-Ngrok para usar ngrok.yml..." -ForegroundColor Cyan
 & $nssmPath set JARVIS-Ngrok Application "E:\prueba\ngrok.exe"
-& $nssmPath set JARVIS-Ngrok AppParameters "http 3000 --config=E:\prueba\ngrok.yml --log=stdout"
+& $nssmPath set JARVIS-Ngrok AppParameters "http 7847 --config=E:\prueba\ngrok.yml --log=stdout"
 & $nssmPath set JARVIS-Ngrok AppDirectory "E:\prueba"
 & $nssmPath set JARVIS-Ngrok AppStdout "E:\prueba\logs\ngrok-service.log"
 & $nssmPath set JARVIS-Ngrok AppStderr "E:\prueba\logs\ngrok-error.log"
@@ -64,7 +64,7 @@ $webhookUrl = $null
 
 while ($retryCount -lt $maxRetries -and -not $webhookUrl) {
     try {
-        $response = Invoke-RestMethod -Uri "http://localhost:4040/api/tunnels" -TimeoutSec 5 -ErrorAction Stop
+        $response = Invoke-RestMethod -Uri "http://localhost:4847/api/tunnels" -TimeoutSec 5 -ErrorAction Stop
         if ($response.tunnels -and $response.tunnels.Count -gt 0) {
             $webhookUrl = $response.tunnels[0].public_url + "/api/whatsapp/webhook"
             break
@@ -102,7 +102,7 @@ if ($webhookUrl) {
     Write-Host "No se pudo obtener la URL de ngrok" -ForegroundColor Red
     Write-Host ""
     Write-Host "Verifica manualmente:" -ForegroundColor Yellow
-    Write-Host "  pwsh -Command 'Invoke-RestMethod http://localhost:4040/api/tunnels'" -ForegroundColor White
+    Write-Host "  pwsh -Command 'Invoke-RestMethod http://localhost:4847/api/tunnels'" -ForegroundColor White
     Write-Host ""
 }
 
